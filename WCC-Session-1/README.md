@@ -21,8 +21,11 @@ It's *the place to be* for developers at all, not only web developers.
 > It's all visible.
 
 Websites are simply programs, that run on servers (*many stacked computers, that are „always“ reachable in the web*) and can be opened by any web browser.
-But, a huge part of it's code is directly accessable.
-Imagine your asking a carpenter for a new chair.
+If you buy any program out their, except it's open source, you won't be able to looks what's going up inside.
+It's like buying a smartphone or laptop without any simple possibility to change the battery.
+But websites are differnt, because a huge part of it's code is directly accessable.
+So, you can have a close look on what's going up in there.
+Imagine you're asking a carpenter for a new chair.
 Your sending a `Request` to the source of distribution, in this example the carpenter.
 And you're getting a `Response`, in this case a chair.
 In the web you're doing almost the same, but you're sending your `Request` to a server and getting back a `Response`.
