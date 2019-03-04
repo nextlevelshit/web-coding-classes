@@ -43,6 +43,6 @@ You could also hit the `F12` key on your keyboard.
 This opens the `Inspector` which lets you dive into a huge part of the code.
 
 ![Inspector inside Chromium Browser](./browser-inspector.png)
-<div style="text-align: center">
+<center>
   <small><i>Chromium Browser with opened Inspector Tool</i></small>
-</div>
+</center>
