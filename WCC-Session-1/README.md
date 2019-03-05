@@ -6,16 +6,6 @@ There is a huge demand on good web developers.
 What basically is meant by „good” we will explain on a later session.
 But, don't worry and go ahead or even skip different sections or even whole session.
 
-## Creating Accounts
-
-> Web developers are not alone.
-
-After a while you will see how huge our community is.
-We're having our own „newspapers“, question-and-answer (Q&A) platforms and space to colaborate, present and discuss your own projects.
-And you're already right there.
-This is `GitHub`.
-It's *the place to be* for developers at all, not only web developers.
-
 ## Website Manipulation
 
 > It's all visible.
@@ -43,6 +33,18 @@ You could also hit the <kbd>F12</kbd> key on your keyboard.
 This opens the `Inspector` which lets you dive into a huge part of the code.
 
 ![Inspector inside Chromium Browser](./browser-inspector.png)
-<center>
+<div align="center">
   <small><i>Chromium Browser with opened Inspector Tool</i></small>
-</center>
+</div>
+
+
+## Creating Accounts
+
+> Web developers are not alone.
+
+After a while you will see how huge our community is.
+We're having our own „newspapers“, question-and-answer (Q&A) platforms and space to colaborate, present and discuss your own projects.
+And you're already right there.
+This is `GitHub`.
+It's *the place to be* for developers at all, not only web developers.
+
