@@ -39,7 +39,7 @@ And you can have look on it, just follow this:
 2. Choose „Inspect“
 ```
 
-You could also hit the `F12` key on your keyboard.
+You could also hit the <kbd>F12</kbd> key on your keyboard.
 This opens the `Inspector` which lets you dive into a huge part of the code.
 
 ![Inspector inside Chromium Browser](./browser-inspector.png)
