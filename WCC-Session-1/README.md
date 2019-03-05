@@ -48,3 +48,12 @@ And you're already right there.
 This is `GitHub`.
 It's *the place to be* for developers at all, not only web developers.
 
+### GitHub
+
+https://github.com/
+
+### stackoverflow
+
+https://stackoverflow.com/users/signup
+
+
