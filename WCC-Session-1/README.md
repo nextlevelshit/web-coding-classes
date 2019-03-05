@@ -52,8 +52,18 @@ It's *the place to be* for developers at all, not only web developers.
 
 https://github.com/
 
+![Screenshot of Landingpage of github.com](./screenshot-github.png)
+<div align="center">
+  <small><i>Landingpage of github.com</i></small>
+</div>
+
 ### stackoverflow
 
 https://stackoverflow.com/users/signup
+
+![Screenshot of Sign-up Page of stackoverflow.com](./screenshot-stackoverflow.png)
+<div align="center">
+  <small><i>Sign-up page of stackoverflow.com</i></small>
+</div>
 
 
