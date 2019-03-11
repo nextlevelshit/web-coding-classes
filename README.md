@@ -8,6 +8,7 @@
 | Sessions                        | Description                                             |
 | ------------------------------- | ------------------------------------------------------- |
 | [Session 1](/WCC-Session-1)     | Website Manipulation, Creating Accounts, Introduction   |
+| [Session 2](/WCC-Session-2)     | Glitches, Bad Practice and other Issues                 |
 
 ## Additional helpful Content
 
