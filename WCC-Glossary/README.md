@@ -4,13 +4,25 @@
 
 ## B
 
+### Browser
+
 ## C
+
+### CSS
 
 ## D
 
+### Developer Tools
+
 ## E
 
+### EcmaScript
+
 ## F
+
+### Framework
+
+### Free and Open Source Software (FOSS)
 
 ## G
 
@@ -18,9 +30,15 @@
 
 ## H
 
+### HTML
+
+### HTTP/S
+
 ## I
 
 ## J
+
+### JavaScript
 
 ## K
 
@@ -28,9 +46,13 @@
 
 ## M
 
+### Mozilla Developer Network (MDN)
+
 ## N
 
 ## O
+
+### Open Source
 
 ## P
 
@@ -38,6 +60,16 @@
 
 ## R
 
-### Response
+### React
 
 ### Request
+
+### Response
+
+## S
+
+### Stack Overflow
+
+## T
+
+### TypeScript
