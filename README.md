@@ -15,4 +15,4 @@
 
 | Title                           | Description                              |
 | ------------------------------- | ---------------------------------------- |
-| [Glossary](/WCC-Glossary)       | GGlossary of Web Development Terms       |
+| [Glossary](/WCC-Glossary)       | Glossary of Web Development Terms        |
