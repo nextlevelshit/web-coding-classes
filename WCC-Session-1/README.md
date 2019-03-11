@@ -57,7 +57,7 @@ https://github.com/
   <small><i>Landingpage of github.com</i></small>
 </div>
 
-### stackoverflow
+### Stack Overflow
 
 https://stackoverflow.com/users/signup
 
@@ -67,3 +67,19 @@ https://stackoverflow.com/users/signup
 </div>
 
 
+### Hackernews
+
+Hackernews is the daily newly „printed“ newspaper printed for developers over all division.
+Every member can publish a link to an article found on the web.
+Every other member can up or down vote it and discuss the content and intention of this article.
+After the day, the list will be reset, so you only recieve the hottest topics every day.
+There are more categories to choose from.
+So, take a look and find out which categories are there.
+For example look out for the `noobstories`. Can you find them?
+
+https://news.ycombinator.com/
+
+![Screenshot of overview of top stories on hacker news](./screenshot-hackernews.png)
+<div align="center">
+  <small><i>Overview of top stories on hacker news</i></small>
+</div>
