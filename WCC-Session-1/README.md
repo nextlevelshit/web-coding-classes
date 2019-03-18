@@ -5,7 +5,7 @@ If you're a total beginner and want to start coding, you'll find here much intro
 There is a huge demand on good web developers.
 What basically is meant by „good” we will explain on a later session.
 But, don't worry and go ahead or skip different sections or even whole session.
-Every chapter holds a *questions and quests* section for your to dive deeper into the topics.
+Every chapter holds a *questions and quests* section for you to dive deeper into the topics.
 It's just a nice-to-have.
 Feel free to skip them.
 
