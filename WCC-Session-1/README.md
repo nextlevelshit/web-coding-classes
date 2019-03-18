@@ -15,14 +15,19 @@ If you buy any program out their, except it's open source, you won't be able to 
 It's like buying a smartphone or laptop without any simple possibility to change the battery.
 But websites are different, because a huge part of it's code is directly accessable.
 So, you can have a close look on what's going up in there.
-Imagine you're asking a carpenter for a new chair.
-Your sending a `Request` to the source of distribution, in this example the carpenter.
+
+Let's make an example from „real world“.
+Imagine you're wanting to buy a new chair from a carpenter.
+So, you're sending a `Request` to the source of distribution, in this example the carpenter.
 And you're getting a `Response`, in this case a chair.
-In the web you're doing almost the same, but you're sending your `Request` to a server and getting back a `Response`.
+In the web you're doing almost the same, but you're sending your `Request` to a server and getting back a bunch of text and data as a `Response`.
 This `Response` does not include the whole chair, but its source code, some kind of construction manual to build the chair.
 Gladly your browser is capable to read this instruction and interpret it.
 So, you can see the the chair, but the instruction plan is still callable.
-And you can have look on it, just follow this:
+And the carpenter rarely gives information about his or her construction plans.
+Websites are a great source of having both, the plans and the product.
+Even other software is mostly just the product without any possibility of interacting with the plans.
+Finally, we should have a look and inspect a web page:
 
 ```
 1. Right-click any content in this web page.
