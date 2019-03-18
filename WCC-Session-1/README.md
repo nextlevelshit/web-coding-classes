@@ -1,6 +1,6 @@
 # WCC Session 1
 
-Welcome to the first Web Coding Class Session. 
+Welcome to the first *Web Coding Class* Session. 
 If you're a total beginner and want to start coding, you'll find here much introductional information on how the Internet works, what happens in the background of your browser while you're browsing the web etc.
 There is a huge demand on good web developers.
 What basically is meant by „good” we will explain on a later session.
@@ -115,7 +115,22 @@ https://stackoverflow.com/users/signup
 </div>
 <br><br>
 
+#### Questions
+
+1. What are common alternatives to Stack Overflow?
+
+#### Quests
+
+1. Create an account on Stack Overflow.
+2. Complete the [Beginners Tour](https://stackoverflow.com/tour)
+
 ### Hackernews
+
+![Screenshot of overview of top stories on hacker news](./screenshot-hackernews.png)
+<div align="center">
+  <small><i>Overview of top stories on hacker news</i></small>
+</div>
+<br><br>
 
 Hackernews is the daily „printed“ newspaper printed for developers over all division.
 Every member can publish a link to an article found on the web.
@@ -130,7 +145,3 @@ So, take a look and find out which categories are there.
 
 https://news.ycombinator.com/
 
-![Screenshot of overview of top stories on hacker news](./screenshot-hackernews.png)
-<div align="center">
-  <small><i>Overview of top stories on hacker news</i></small>
-</div>
