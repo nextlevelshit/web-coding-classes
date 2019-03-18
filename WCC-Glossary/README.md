@@ -8,6 +8,8 @@
 
 ## C
 
+### Client-side
+
 ### CSS
 
 ## D
@@ -67,6 +69,8 @@
 ### Response
 
 ## S
+
+### Server-side
 
 ### Stack Overflow
 
