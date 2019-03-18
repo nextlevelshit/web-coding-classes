@@ -7,7 +7,7 @@ What basically is meant by „good” we will explain on a later session.
 But, don't worry and go ahead or skip different sections or even whole session.
 
 > **NOTICE**  
-> Besides the Sessions there is an comprehensive [Glossary](../WCC-Glossary/README.md), which explains all that technical words and vocabulary. Most technical words will have hyperlinks to its explanation. Feel free to contribute a better description. This project is still under heavy development.
+> Besides these Sessions there is an comprehensive [Glossary](../WCC-Glossary/README.md), which explains all that technical vocabulary. Most technical words will have hyperlinks to its explanation. Feel free to contribute a better description. This project is still under heavy development.
 
 ## Website Manipulation
 
