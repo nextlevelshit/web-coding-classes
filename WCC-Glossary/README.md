@@ -10,6 +10,8 @@
 
 ### Client-side
 
+### Cross-Side-Script (XSS)
+
 ### CSS
 
 ## D
@@ -77,3 +79,15 @@
 ## T
 
 ### TypeScript
+
+## U
+
+## V
+
+## W
+
+## X
+
+## Y
+
+## Z
