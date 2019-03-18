@@ -5,6 +5,9 @@ If you're a total beginner and want to start coding, you'll find here much intro
 There is a huge demand on good web developers.
 What basically is meant by „good” we will explain on a later session.
 But, don't worry and go ahead or skip different sections or even whole session.
+Every chapter holds a *questions and quests* section for your to dive deeper into the topics.
+It's just a nice-to-have.
+Feel free to skip them.
 
 > **NOTICE**  
 > Besides these Sessions there is an comprehensive [Glossary](../WCC-Glossary/README.md), which explains all that technical vocabulary. Most technical words will have hyperlinks to its explanation. Feel free to contribute a better description. This project is still under heavy development.
@@ -52,6 +55,20 @@ You might also like to click through the different tabs.
 There is a lot of information about the current state of that web page visible. 
 In a later session we're going to have a closer look on this topics, but don't hesitate to play around.
 
+### Questions
+
+1. What are the most popular web browsers?
+2. Which was the first graphical web browser ever?
+3. In which language are the most web browsers developed?
+4. Which short-cut is used to focus the [address bar](../WCC-Glossary/README.md#address-bar)?
+
+### Quests
+
+*For verification make a screenshot of your results. Remember, your changes are only locally and do not persist. After closing the tab, window or browser your changes are gone.*
+
+1. Open any news website and change the headline into something funny.
+2. Openy any online shop and change any image.
+
 ## Creating Accounts
 
 > Web developers are not alone.
@@ -76,7 +93,16 @@ If you want to code something privately just with your friends or co-workers, th
 Think about getting an account here.
 Later on it will make things much easier, because all the source codes here are versioned with git, a massivly important piece of code to help to make code maintainable.
 
-**Question:** What are alternatives of *GitHub*? Can you find some on the web and how do they differ from *GitHub*?
+### Questions
+
+1. What are common alternatives of *GitHub*? Can you find some on the web and how do they differ from *GitHub*?
+2. What is the business model of *GitHub*? How do they make money?
+3. What is the most popular programming language used in the projects hosted on *GitHub*?
+
+### Quests
+
+1. Create an account on *GitHub*.
+2. Create your first [repository](../WCC-Glossary/README.md#repository).
 
 ### Stack Overflow
 
@@ -90,13 +116,16 @@ https://stackoverflow.com/users/signup
 
 ### Hackernews
 
-Hackernews is the daily newly „printed“ newspaper printed for developers over all division.
+Hackernews is the daily „printed“ newspaper printed for developers over all division.
 Every member can publish a link to an article found on the web.
 Every other member can up or down vote it and discuss the content and intention of this article.
 After the day, the list will be reset, so you only recieve the hottest topics every day.
 There are more categories to choose from.
 So, take a look and find out which categories are there.
-For example look out for the `noobstories`. Can you find them?
+
+### Quests 
+
+1. Find the `noobstories`.
 
 https://news.ycombinator.com/
 
