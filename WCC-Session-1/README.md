@@ -41,10 +41,13 @@ This opens the `Inspector` which lets you dive into a huge part of the code.
 <div align="center">
   <small><i>Chromium Browser with opened Inspector Tool</i></small>
 </div>
+<br><br>
 
 If you're curious, go ahead and try to manipulate any content. 
 No worries, this is only [client-side](../WCC-Glossary/README.md#client-side), it's only locally on your machine changed.
-
+You might also like to click through the different tabs.
+There is a lot of information about the current state of that web page visible. 
+In a later session we're going to have a closer look on this topics, but don't hesitate to play around.
 
 ## Creating Accounts
 
