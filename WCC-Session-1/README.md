@@ -89,17 +89,18 @@ If you want to code something privately just with your friends or co-workers, th
 <div align="center">
   <small><i>Landingpage of github.com</i></small>
 </div>
+<br><br>
 
 Think about getting an account here.
 Later on it will make things much easier, because all the source codes here are versioned with git, a massivly important piece of code to help to make code maintainable.
 
-### Questions
+#### Questions
 
 1. What are common alternatives of *GitHub*? Can you find some on the web and how do they differ from *GitHub*?
 2. What is the business model of *GitHub*? How do they make money?
 3. What is the most popular programming language used in the projects hosted on *GitHub*?
 
-### Quests
+#### Quests
 
 1. Create an account on *GitHub*.
 2. Create your first [repository](../WCC-Glossary/README.md#repository).
@@ -112,7 +113,7 @@ https://stackoverflow.com/users/signup
 <div align="center">
   <small><i>Sign-up page of stackoverflow.com</i></small>
 </div>
-
+<br><br>
 
 ### Hackernews
 
