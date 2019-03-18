@@ -13,7 +13,7 @@ But, don't worry and go ahead or skip different sections or even whole session.
 Websites are simply programs, that run on servers (*many stacked computers, that are „always“ reachable in the web*) and can be opened by any web browser.
 If you buy any program out their, except it's open source, you won't be able to look what's going up inside.
 It's like buying a smartphone or laptop without any simple possibility to change the battery.
-But websites are differnt, because a huge part of it's code is directly accessable.
+But websites are different, because a huge part of it's code is directly accessable.
 So, you can have a close look on what's going up in there.
 Imagine you're asking a carpenter for a new chair.
 Your sending a `Request` to the source of distribution, in this example the carpenter.
