@@ -72,6 +72,8 @@
 
 ## S
 
+### Scope
+
 ### Server-side
 
 ### Stack Overflow
