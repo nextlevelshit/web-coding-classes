@@ -6,6 +6,10 @@ There is a huge demand on good web developers.
 What basically is meant by „good” we will explain on a later session.
 But, don't worry and go ahead or skip different sections or even whole session.
 
+> NOTICE:
+> 
+> Besides the Sessions there is an comprehensive [Glossary](../WCC-Glossary/README.md), which explains all that technical words and vocabulary. Most technical words will have hyperlinks to its explanation. Feel free to contribute a better description. This project is still under heavy development.
+
 ## Website Manipulation
 
 > It's all visible.
@@ -54,19 +58,26 @@ In a later session we're going to have a closer look on this topics, but don't h
 > Web developers are not alone.
 
 After a while you will see how huge our community is.
-We're having our own „newspapers“, question-and-answer (Q&A) platforms and space to colaborate, present and discuss your own projects.
+We're having our own „newspapers“, question-and-answer (Q&A) platforms and space to colaborate, present and discuss our projects.
 And you're already right there.
 This is `GitHub`.
 It's *the place to be* for developers at all, not only web developers.
 
 ### GitHub
 
-https://github.com/
+GitHub is a collaborative platform for hosting, sharing, discussing and maintaining code in a central point, so every involved person can investigate, search and read about others and his or her own projects.
+You can use this platform to host you're own project and decide if it should be visible for the public audience.
+If you want to code something privately just with your friends or co-workers, this is totally fine and possible.
 
 ![Screenshot of Landingpage of github.com](./screenshot-github.png)
 <div align="center">
   <small><i>Landingpage of github.com</i></small>
 </div>
+
+Think about getting an account here.
+Later on it will make things much easier, because all the source codes here are versioned with git, a massivly important piece of code to help to make code maintainable.
+
+**Question:** What are alternatives of *GitHub*? Can you find some on the web and how do they differ from *GitHub*?
 
 ### Stack Overflow
 
