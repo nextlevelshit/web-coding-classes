@@ -4,14 +4,14 @@ Welcome to the first Web Coding Class Session.
 If you're a total beginner and want to start coding, you'll find here much introductional information on how the Internet works, what happens in the background of your browser while you're browsing the web etc.
 There is a huge demand on good web developers.
 What basically is meant by „good” we will explain on a later session.
-But, don't worry and go ahead or even skip different sections or even whole session.
+But, don't worry and go ahead or skip different sections or even whole session.
 
 ## Website Manipulation
 
 > It's all visible.
 
 Websites are simply programs, that run on servers (*many stacked computers, that are „always“ reachable in the web*) and can be opened by any web browser.
-If you buy any program out their, except it's open source, you won't be able to looks what's going up inside.
+If you buy any program out their, except it's open source, you won't be able to look what's going up inside.
 It's like buying a smartphone or laptop without any simple possibility to change the battery.
 But websites are differnt, because a huge part of it's code is directly accessable.
 So, you can have a close look on what's going up in there.
