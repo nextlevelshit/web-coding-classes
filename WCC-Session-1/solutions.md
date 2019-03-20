@@ -4,20 +4,23 @@
 
 ### Questions
 
-1. What are the most popular web browsers?
+> 1. What are the most popular web browsers?
 
-> Google Chrome (62.4%)  
-> Safari (14.56%)  
-> Firefox (5.1%)  
-> UC Browser (4.17%)  
-> Opera (3.13%)  
-> Internet Explorer 2.8%  
+Google Chrome (62.4%)  
+Safari (14.56%)  
+Firefox (5.1%)  
+UC Browser (4.17%)  
+Opera (3.13%)  
+Internet Explorer 2.8%  
 
 *Source: https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables*
 
-2. Which was the first graphical web browser ever?
+> 2. Which was the first graphical web browser ever?
 
->
+Besides there were non-graphical text-based browsers before, the first *graphical web browser* was Mosaic (later renamed to Netscape).
+It was mainly developed by Marc Andreessen and Mosaic was the first widely used web browser.
+
+*Source: https://en.wikipedia.org/wiki/History_of_the_web_browser*
 
 3. In which language are the most web browsers developed?
 4. Which short-cut is used to focus the [address bar](../WCC-Glossary/README.md#address-bar)?
