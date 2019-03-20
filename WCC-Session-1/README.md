@@ -10,7 +10,11 @@ It's just a nice-to-have.
 Feel free to skip them.
 
 > **NOTICE**  
-> Besides these Sessions there is an comprehensive [Glossary](../WCC-Glossary/README.md), which explains all that technical vocabulary. Most technical words will have hyperlinks to its explanation. Feel free to contribute a better description. This project is still under heavy development.
+> Besides these Sessions there is an comprehensive [Glossary](../WCC-Glossary/README.md), which explains all that technical vocabulary.
+> Most technical words will have hyperlinks to its explanation.
+> Feel free to contribute a better description.
+> This project is still under heavy development.
+> [Here you can find the answers](./solutions.md) to the questions of Session 1.
 
 ## Website Manipulation
 
