@@ -4,7 +4,7 @@
 
 ### Questions
 
-> 1. What are the most popular web browsers?
+> What are the most popular web browsers?
 
 Google Chrome (62.4%)  
 Safari (14.56%)  
@@ -15,7 +15,7 @@ Internet Explorer 2.8%
 
 *Source: https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables*
 
-> 2. Which was the first graphical web browser ever?
+> Which was the first graphical web browser ever?
 
 Besides there were non-graphical text-based browsers before, the first *graphical web browser* was Mosaic (later renamed to Netscape).
 It was mainly developed by Marc Andreessen and Mosaic was the first widely used web browser.
