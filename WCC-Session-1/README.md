@@ -126,22 +126,26 @@ https://stackoverflow.com/users/signup
 
 ### Hackernews
 
+https://news.ycombinator.com/
+
 ![Screenshot of overview of top stories on hacker news](./screenshot-hackernews.png)
 <div align="center">
   <small><i>Overview of top stories on hacker news</i></small>
 </div>
 <br><br>
 
-Hackernews is the daily „printed“ newspaper printed for developers over all division.
+Hackernews is the daily „printed“ newspaper for developers over all division.
 Every member can publish a link to an article found on the web.
 Every other member can up or down vote it and discuss the content and intention of this article.
 After the day, the list will be reset, so you only recieve the hottest topics every day.
 There are more categories to choose from.
 So, take a look and find out which categories are there.
 
+### Quests
+
+1. What are common alternatives to *Hackernews*?
+
 ### Quests 
 
 1. Find the `noobstories`.
-
-https://news.ycombinator.com/
 
