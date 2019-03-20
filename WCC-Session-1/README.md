@@ -73,14 +73,14 @@ We will have a closer look at what is going on here.  In the meantime, feel free
 *For verification make a screenshot of your results. Remember, your changes are only local and do not persist. After closing the tab, window or browser your changes are gone.*
 
 1. Open any news website and change the headline into something funny.
-2. Openy any online shop and change any image.
+2. Open any online shop and change any image.
 
 ## Creating Accounts
 
 > Web developers are not alone.
 
 After a while you will see how huge our community is.
-We're having our own „newspapers“, question-and-answer (Q&A) platforms and space to colaborate, present and discuss our projects.
+We have our own „newspapers“, question-and-answer (Q&A), and platforms to colaborate, present and discuss our projects.
 And you're already right there.
 This is `GitHub`.
 It's *the place to be* for developers at all, not only web developers.
@@ -88,21 +88,21 @@ It's *the place to be* for developers at all, not only web developers.
 ### GitHub
 
 GitHub is a collaborative platform for hosting, sharing, discussing and maintaining code in a central point, so every involved person can investigate, search and read about others and his or her own projects.
-You can use this platform to host you're own project and decide if it should be visible for the public audience.
-If you want to code something privately just with your friends or co-workers, this is totally fine and possible.
+You can use this platform to host your own project and decide if it should be visible for the public audience.
+If you want to code something privately, just with your friends or co-workers, this is totally fine and possible.
 
 ![Screenshot of Landingpage of github.com](./screenshot-github.png)
 <div align="center">
-  <small><i>Landingpage of github.com</i></small>
+  <small><i>Landing page of github.com</i></small>
 </div>
 <br><br>
 
 Think about getting an account here.
-Later on it will make things much easier, because all the source codes here are versioned with git, a massivly important piece of code to help to make code maintainable.
+Later on it will make things much easier, because all the source code here are versioned with a tool called "Git".  Git is a massivly important tool to help to make code maintainable.
 
 #### Questions
 
-1. What are common alternatives of *GitHub*? Can you find some on the web and how do they differ from *GitHub*?
+1. What are common alternatives to *GitHub*? Can you find some on the web and how do they differ from *GitHub*?
 2. What is the business model of *GitHub*? How do they make money?
 3. What is the most popular programming language used in the projects hosted on *GitHub*?
 
@@ -142,9 +142,9 @@ https://news.ycombinator.com/
 
 Hackernews is the daily „printed“ newspaper for developers over all division.
 Every member can publish a link to an article found on the web.
-Every other member can up or down vote it and discuss the content and intention of this article.
-After the day, the list will be reset, so you only recieve the hottest topics every day.
-There are more categories to choose from.
+Every other member can up or down vote it, and discuss the content and intention of this article.
+At the end of each day, the list will be reset. So you only recieve the hottest topics every day.
+Further, there are many topics on Hackernews to choose from.
 So, take a look and find out which categories are there.
 
 ### Questions
