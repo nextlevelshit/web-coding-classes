@@ -145,7 +145,7 @@ After the day, the list will be reset, so you only recieve the hottest topics ev
 There are more categories to choose from.
 So, take a look and find out which categories are there.
 
-### Quests
+### Questions
 
 1. What are common alternatives to *Hackernews*?
 
