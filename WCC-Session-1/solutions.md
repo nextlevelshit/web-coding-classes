@@ -22,7 +22,13 @@ It was mainly developed by Marc Andreessen and Mosaic was the first widely used 
 
 *Source: https://en.wikipedia.org/wiki/History_of_the_web_browser*
 
-3. In which language are the most web browsers developed?
+> In which language are the most web browsers developed?
+
+Most web browsers are programmed in C++, but there are alternatives coming up.
+[Servo](https://servo.org/) is built with [Rust](https://www.rust-lang.org/), a free programming language.
+
+<small>*Source: https://softwareengineering.stackexchange.com/questions/41883/why-are-most-browsers-developed-in-c/41921*</small>
+
 4. Which short-cut is used to focus the [address bar](../WCC-Glossary/README.md#address-bar)?
 
 ### Quests
