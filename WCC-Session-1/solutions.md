@@ -6,13 +6,14 @@
 
 1. What are the most popular web browsers?
 
-> Google Chrome (62.4%)
-> Safari (14.56%)
-> Firefox (5.1%)
-> UC Browser (4.17%)
-> Opera (3.13%)
-> Internet Explorer 2.8%
-> Source: https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables
+> Google Chrome (62.4%)  
+> Safari (14.56%)  
+> Firefox (5.1%)  
+> UC Browser (4.17%)  
+> Opera (3.13%)  
+> Internet Explorer 2.8%  
+
+*Source: https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables*
 
 2. Which was the first graphical web browser ever?
 
