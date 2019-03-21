@@ -114,7 +114,18 @@
 
 ## T
 
-### TypeScript
+### TypeScript (TS)
+
+TypeScript is a superset of JavaScript that is compiled into plain JavaScript that can be interpreted by any browser.
+TypeScript its self cannot be interpreted by browsers, so it is a kind of dialect of JavsScript.
+A typical new feature is to *type-set* variables:
+
+```ts
+const foo: string[] // type-setting `foo` to an array of strings
+const foo = ['foo', 'bar', 'baz'] // setting value of `foo`
+```
+
+<sup>*Source: https://www.typescriptlang.org/index.html*</sup>
 
 ## U
 
