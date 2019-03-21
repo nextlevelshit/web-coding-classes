@@ -28,6 +28,12 @@ What has not yet been mentioned here is [accessibility](../WCC-Glossary/#accessi
 In this case one tries to put oneself in the position of people who have restrictions in the visual range or motor skills, i.e. that the pages should then remain usable without a mouse or it is ensured that signal colours are chosen in a spectrum that is also distinguishable for people with red-green weakness.
 This is a topic of its own and will be discussed in a later session.
 
+![Example of a responsive website](./responsive-webdesign.png)
+<div align="center">
+  <small><i>Example of a responsive website on three different screen sizes</i></small>
+</div>
+<br><br>
+
 ## Glitches
 
 ## Bad Practice
