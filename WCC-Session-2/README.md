@@ -56,6 +56,10 @@ In [Firefox](../WCC-Glossary/#firefox) it is called *Responsive Design Mode*.
 </div>
 <br><br>
 
-## Bad Practice
+### Quests
 
+1. Go on any website and find a glitch and make a screenshot of it.
+2. When you've found a glitch, try to find out why this happens and write down how to reproduce this glitch for other users.
+
+## Bad Practice
 
