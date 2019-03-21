@@ -80,7 +80,7 @@ Source: https://developer.mozilla.org/en-US/docs/Glossary/HTTP
 
 ## J
 
-### JavaScript
+### JavaScript (JS)
 
 JavaScript is a programming language that allows you to implement complex things on web pages. Every time a web page does more than just sit there and display static information for you to look at—displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, or more—you can bet that JavaScript is probably involved.
 
@@ -92,7 +92,7 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
 ## M
 
-### Markdown
+### Markdown (MD)
 
 ### Mozilla Developer Network (MDN)
 
@@ -148,7 +148,18 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
 ## T
 
-### TypeScript
+### TypeScript (TS)
+
+TypeScript is a superset of [JavaScript](#javascript-js) that is compiled into plain JavaScript that can be interpreted by any browser.
+TypeScript its self cannot be interpreted by browsers, so it is a kind of dialect of JavaScript.
+A typical new feature is to *type-set* variables:
+
+```ts
+const foo: string[] // type-setting `foo` to an array of strings
+const foo = ['foo', 'bar', 'baz'] // setting value of `foo`
+```
+
+<sup>*Source: https://www.typescriptlang.org/index.html*</sup>
 
 ## U
 
