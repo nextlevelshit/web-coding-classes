@@ -60,7 +60,7 @@
 
 ## J
 
-### JavaScript
+### JavaScript (JS)
 
 ## K
 
@@ -68,7 +68,7 @@
 
 ## M
 
-### Markdown
+### Markdown (MD)
 
 ### Mozilla Developer Network (MDN)
 
@@ -103,7 +103,6 @@
 | [MDN Article about CSS Specificity][1]          |
 | [CSS Specificity Calculator][2]                 |
 | [CSS Specificity Cheatsheet][3]                 |
-
 
 
 ### Server-side
