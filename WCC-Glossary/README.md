@@ -56,7 +56,7 @@ Synonyms: Bash, Terminal, Command line (CLI), Shell
 
 ### (HTML) Element
 
-> An element consists of the opening tag, the closing tag and the content.
+An element consists of the opening tag, the closing tag and the content.
 
 <sup>*Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started*</sup>
 
