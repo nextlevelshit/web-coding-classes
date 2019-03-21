@@ -36,6 +36,26 @@ This is a topic of its own and will be discussed in a later session.
 
 ## Glitches
 
+A frequent unintended side effect is a so-called glitch.
+Elements are mistakenly displayed too large, too small or no longer at all.
+If they are too small, they are no longer readable.
+If the objects are too large, they exceed the screen size and the web page can suddenly be scrolled horizontally.
+To avoid such glitches it is advisable to test websites on different devices, different screen sizes and different operating systems before publishing them.
+As mentioned above, there are also cases where it is intentionally ignored to pay attention to these side effects, because the circle of affected users is too small or too unimportant.
+In addition, some features are not supported in some browsers, either because they are too old and [deprecated](../WCC-Glossary/#deprecated), or because they are too modern and not yet supported.
+
+For testing websites and search for that glitches it is recommended to use different devices either or emulate that screen sizes.
+Therefore most browser support natively an emulator for common devices like smart phones or tablets.
+To test a website, open your [developer tools](../WCC-Glossary/#developer-tools) and find this functionality.
+In [Chrome](../WCC-Glossary/#chrome) and [Chromium](../WCC-Glossary/#chromium) called *device toolbar*.
+In [Firefox](../WCC-Glossary/#firefox) it is called *Responsive Design Mode*.
+
+![Device toolbar on Chromium/Chrome and responsive design mode on Firefox](./responsive-toolbar.png)
+<div align="center">
+  <small><i>Device toolbar on Chromium/Chrome and responsive design mode on Firefox</i></small>
+</div>
+<br><br>
+
 ## Bad Practice
 
 
