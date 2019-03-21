@@ -9,7 +9,7 @@ Safari (14.56%)
 Firefox (5.1%)  
 UC Browser (4.17%)  
 Opera (3.13%)  
-Internet Explorer 2.8%  
+Internet Explorer (2.8%) 
 
 <sup>*Source: https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables*</sup>
 
