@@ -122,6 +122,10 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
 ### Rust
 
+>Rust is a new open-source systems programming language created by Mozilla and a community of volunteers, designed to help developers create fast, secure applications which take full advantage of the powerful features of modern multi-core processors. It prevents segmentation faults and guarantees thread safety, all with an easy-to-learn syntax.
+
+Source: https://developer.mozilla.org/en-US/docs/Mozilla/Rust
+
 ## S
 
 ### Safari
