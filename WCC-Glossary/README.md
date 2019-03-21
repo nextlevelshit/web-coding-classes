@@ -115,7 +115,7 @@
 
 ### TypeScript (TS)
 
-TypeScript is a superset of [JavaScript](#javascript) that is compiled into plain JavaScript that can be interpreted by any browser.
+TypeScript is a superset of [JavaScript](#javascript-js) that is compiled into plain JavaScript that can be interpreted by any browser.
 TypeScript its self cannot be interpreted by browsers, so it is a kind of dialect of JavaScript.
 A typical new feature is to *type-set* variables:
 
