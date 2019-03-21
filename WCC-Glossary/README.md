@@ -37,6 +37,10 @@ Source: https://developer.mozilla.org/en-US/docs/Glossary/CSS
 
 ### (HTML) Element
 
+An element consists of the opening tag, the closing tag and the content.
+
+Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
+
 ### EcmaScript
 
 ### Endpoint
