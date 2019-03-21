@@ -58,11 +58,14 @@ By 2017 it was definitely JavaScript.
 
 > What are common alternatives to Stack Overflow?
 
-- Reddit
-- dev.io
+- [Reddit](//reddit.com)
+- [Quora](//quora.com)
 
 ### Hackernews
 
 > What are common alternatives to *Hackernews*?
 
-- Slashdot.com
+- [Slashdot](//slashdot.com)
+- [Medium](//medium.com)
+- [dev.to](//dev.to)
+- [hckrnews](//hckrnews.com) (Modification of Hacker News)
