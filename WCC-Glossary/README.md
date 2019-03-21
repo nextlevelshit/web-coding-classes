@@ -4,6 +4,10 @@
 
 ### Accessibility (a11y)
 
+>Accessibility (a11y) is a measure of how accessible a computer system is to all people, including those with disabilities or impairments. It concerns both software and hardware and how they are configured in order to enable a disabled or impaired person to use that computer system successfully.
+
+Source: https://www.techopedia.com/definition/10165/accessibility-a11y
+
 ### Angular
 
 ### API (Application Programming Interface)
