@@ -148,6 +148,10 @@ Source: https://developer.mozilla.org/en-US/docs/Glossary/Scope
 
 ### Server
 
+>A server is a software or hardware offering a service to a user, usually referred to as client.  A hardware server is a shared computer on a network, usually powerful and housed in a data center.  A software server (often running on a hardware server) is a program that provides services to client programs or a user interface to human clients.
+
+Source: https://developer.mozilla.org/en-US/docs/Glossary/Server
+
 ### Server-side
 
 ### (CSS) Specificity
