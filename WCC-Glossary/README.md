@@ -6,7 +6,7 @@
 
 > Accessibility (a11y) is a measure of how accessible a computer system is to all people, including those with disabilities or impairments. It concerns both software and hardware and how they are configured in order to enable a disabled or impaired person to use that computer system successfully.
 
-Source: https://www.techopedia.com/definition/10165/accessibility-a11y
+<sup>*Source: https://www.techopedia.com/definition/10165/accessibility-a11y*</sup>
 
 ### Angular
 
@@ -81,6 +81,12 @@ An element consists of the opening tag, the closing tag and the content.
 ### Glitches
 
 ## H
+
+### Hamburger Menu
+
+The hamburger menu is used to view options. It is referred to as hotdog menu or three line menu as well. It got it's name from looking like a hamburger.
+
+<sup>*Source: https://www.computerhope.com/jargon/h/hamburger-menu.htm*</sup>
 
 ### HTML
 
