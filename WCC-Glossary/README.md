@@ -150,6 +150,10 @@ An element consists of the opening tag, the closing tag and the content.
 
 ### Responsive Webdesign
 
+>Responsive design is the practice of designing a website so it looks and works properly on a range of different devices — particularly mobile phones and tablets as well as desktops and laptops.
+
+Source: https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
+
 ### Route
 
 ### Rust
