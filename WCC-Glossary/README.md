@@ -80,6 +80,8 @@ An element consists of the opening tag, the closing tag and the content.
 
 ### Feature
 
+### Firefox
+
 ### Float
 
 ### Framework
@@ -139,8 +141,6 @@ The hamburger menu is used to view options. It is referred to as hotdog menu or 
 ### Markdown (MD)
 
 ### Mozilla Developer Network (MDN)
-
-### Mozilla Firefox
 
 ## N
 
