@@ -31,9 +31,15 @@ It iterates in 0.1 steps. `type`, `min`, `max` and `step` are attributes.*
 
 ## B
 
+### Bugs
+
 ### Browser
 
 ## C
+
+### Chrome
+
+### Chromium
 
 ### Client-side
 
@@ -52,6 +58,8 @@ Synonyms: Bash, Terminal, Command line (CLI), Shell
 
 ## D
 
+### Deprecated
+
 ### Developer Tools
 
 ## E
@@ -68,6 +76,10 @@ An element consists of the opening tag, the closing tag and the content.
 
 ## F
 
+### Fallbacks
+
+### Features
+
 ### Float
 
 ### Framework
@@ -75,8 +87,6 @@ An element consists of the opening tag, the closing tag and the content.
 ### Free and Open Source Software (FOSS)
 
 ## G
-
-### Google Chrome
 
 ### Glitches
 
@@ -141,6 +151,8 @@ The hamburger menu is used to view options. It is referred to as hotdog menu or 
 ### Opera
 
 ## P
+
+### Pixel-perfect
 
 ### Progressive Web App (PWA)
 
@@ -234,6 +246,8 @@ const foo = ['foo', 'bar', 'baz'] // setting value of `foo`
 ## W
 
 ### WebGL
+
+### Workarounds
 
 ### World Wide Web
 
