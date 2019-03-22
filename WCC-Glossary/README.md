@@ -76,7 +76,7 @@ An element consists of the opening tag, the closing tag and the content.
 
 ## F
 
-### Fallbacks
+### Fallback
 
 ### Feature
 
@@ -247,7 +247,7 @@ const foo = ['foo', 'bar', 'baz'] // setting value of `foo`
 
 ### WebGL
 
-### Workarounds
+### Workaround
 
 ### World Wide Web
 
