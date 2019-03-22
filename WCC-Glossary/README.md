@@ -31,7 +31,7 @@ It iterates in 0.1 steps. `type`, `min`, `max` and `step` are attributes.*
 
 ## B
 
-### Bugs
+### Bug
 
 ### Browser
 
@@ -78,7 +78,7 @@ An element consists of the opening tag, the closing tag and the content.
 
 ### Fallbacks
 
-### Features
+### Feature
 
 ### Float
 
