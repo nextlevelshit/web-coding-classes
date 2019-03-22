@@ -19,7 +19,7 @@ What is clear is that some content no longer fits next to each other, but is arr
 Or sometimes even the navigation bar disappears and is hidden behind a so-called [hamburger menu](../WCC-Glossary/#hamburger-menu) and only unfolds when clicked.
 So in some cases these are so-called [features](../WCC-Glossary/#feature), i.e. desired behavior, and sometimes called [bugs](../WCC-Glossary/#bug) or glitches, i.e. unwanted side effects.
 
-So for us developers it is the default state that pages are not always pixel-perfect and do not look indistinguishable on any device.
+So for us developers it is the default state that pages are not always [pixel-perfect](../WCC-Glossary/#pixel-perfect) and do not look indistinguishable on any device.
 We arrange ourselves with these side effects and could of course, if we had to, invest time and energy for every single browser version, for example, to secure every single unwanted side effect via so-called [workarounds](../WCC-Glossary/#workaround) or [fallbacks](../WCC-Glossary/#fallback), but this is often hardly possible.
 Therefore it is often advisable to focus on certain target groups.
 For example, you agree on the screen size up to which you want to adjust the page or which browser version you want to address.
