@@ -97,6 +97,6 @@ He founded the manifesto on *ethical design* which can be found on https://2017.
 
 ### Quests
 
-1. Go on any website you are frequently using and find some bad pratices. Often when you are search for anything to long, it is most probably a sign for a bad [User Interface (UI)](../WCC-Glossary/#user-interface-ui).
+1. Go on any website you are frequently using and find some bad practices. Often when you are search for anything to long, it is most probably a sign for a bad [User Interface (UI)](../WCC-Glossary/#user-interface-ui).
 2. Take a screenshot and make a proposal how to do it better.
 
