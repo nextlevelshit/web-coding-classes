@@ -81,7 +81,7 @@ Many larger websites try to avoid and eradicate these barriers, especially in th
 But what is often noticeable is that some popular websites intentionally make certain functionalities difficult to access.
 Some functionalities are even intentionally made more difficult in order to stimulate certain user experiences and distract the user from his actual search or task. 
 For this purpose, there are research areas that work in full awareness to increase so-called [Key Performance Indicators (KPI)](../WCC-Glossary/#key-performance-indicator-kpi).
-This would not be wrong in principle if a company wanted to increase its profits, but not at the expense of [user-friendliness](../WCC-Glossary/#user-friendlyness).
+This would not be wrong in principle if a company wanted to increase its profits, but not at the expense of [user-friendliness](../WCC-Glossary/#user-friendliness).
 
 All this leads to users getting used to such designs and then not being able to deal with real [usability](../WCC-Glossary/#usability) and [ergonomics](../WCC-Glossary/#egonomics), since user behavior has already adapted.
 For this reason, a small but important part of designers has joined forces to counteract this.
