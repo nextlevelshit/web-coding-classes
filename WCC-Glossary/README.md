@@ -16,6 +16,8 @@ https://dev.to/awwsmm/eli5-what-is-an-api-1dd2
 
 ### Application
 
+### Array
+
 ### (HTML) Attribute
 
 > An **attribute** extends a tag, changing its behavior or providing metadata. An attribute always has the form `name=value` (the attribute's identifier followed by its associated value).
@@ -65,6 +67,8 @@ An element consists of the opening tag, the closing tag and the content.
 ### Endpoint
 
 ## F
+
+### Float
 
 ### Framework
 
@@ -185,6 +189,8 @@ Source: https://developer.mozilla.org/en-US/docs/Glossary/Server
 ### (CSS) Specificity
 
 ### Stack Overflow
+
+### String
 
 ### SVG
 
