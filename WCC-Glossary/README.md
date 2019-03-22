@@ -64,13 +64,15 @@ Synonyms: Bash, Terminal, Command line (CLI), Shell
 
 ## E
 
+### Egonomics
+
 ### (HTML) Element
 
 An element consists of the opening tag, the closing tag and the content.
 
 <sup>*Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started*</sup>
 
-### EcmaScript
+### EmmaScript
 
 ### Endpoint
 
@@ -243,7 +245,11 @@ const foo = ['foo', 'bar', 'baz'] // setting value of `foo`
 
 ### UC Browser
 
+### Usability
+
 ### User Friendliness
+
+### User Interface UI
 
 ## V
 
