@@ -47,7 +47,7 @@ In addition, some features are not supported in some browsers, either because th
 For testing websites and search for that glitches it is recommended to use different devices either or emulate that screen sizes.
 Therefore most browser support natively an emulator for common devices like smart phones or tablets.
 To test a website, open your [developer tools](../WCC-Glossary/#developer-tools) and find this functionality.
-In [Chrome](../WCC-Glossary/#chrome) and [Chromium](../WCC-Glossary/#chromium) called *device toolbar*.
+In [Chrome](../WCC-Glossary/#chrome) and [Chromium](../WCC-Glossary/#chromium) it is called *device toolbar*.
 In [Firefox](../WCC-Glossary/#firefox) it is called *Responsive Design Mode*.
 
 ![Device toolbar on Chromium/Chrome and responsive design mode on Firefox](./responsive-toolbar.png)
@@ -62,4 +62,41 @@ In [Firefox](../WCC-Glossary/#firefox) it is called *Responsive Design Mode*.
 2. When you've found a glitch, try to find out why this happens and write down how to reproduce this glitch for other users.
 
 ## Bad Practice
+
+There are two main approaches to responsive web design: Either mobile-first or desktop-first.
+Planning and development therefore decides what the primary usage environment will be and abstracts from it what and how will be displayed on the other devices and screen sizes.
+Desktop-first would mean that the primary use of the website is from the laptop or desktop computer and vice versa.
+
+What is too often forgotten, however, is that this is not the only building site if you think about making web pages optimally present and usable for the majority of its users.
+As already mentioned, a not inconsiderable part of the user community has limitations.
+No matter if it is about sensory impressions or motor skills, but also about the personal preferences of users.
+Some users prefer to do without *JavaScript*, because all kinds of information about the user can be obtained.
+Another example is the well-known *AdBlocker* or similar, which hides unwanted content and advertising on websites.
+Others only want to read relevant information and use a read mode for trouble-free reading of articles and other texts.
+This is often built into browsers like Safari or Firefox natively.
+If you want to go further, you should think about what about languages like Farsi or Arabic, because there texts are read from right to left and not left to right as in English.
+Should the whole website be mirrored in order not to hinder the reading flow?
+
+Many larger websites try to avoid and eradicate these barriers, especially in the area of accessibility.
+But what is often noticeable is that some popular websites intentionally make certain functionalities difficult to access.
+Some functionalities are even intentionally made more difficult in order to stimulate certain user experiences and distract the user from his actual search or task. 
+For this purpose, there are research areas that work in full awareness to increase so-called Key Performance Indicators (KPI).
+This would not be wrong in principle if a company wanted to increase its profits, but not at the expense of user-friendliness.
+
+All this leads to users getting used to such designs and then not being able to deal with real usability and ergonomics, since user behavior has already adapted.
+For this reason, a small but important part of designers has joined forces to counteract this.
+Aral Balkan is definitely one of the pioneers.
+He founded the manifesto on *ethical design* which can be found on https://2017.ind.ie/ethical-design/
+
+![Example for bad practice on twitter.com](./twitter-logout.png)
+<div align="center">
+  <small><i>Twitter „hides“ the logout button in the drop-down menu. Best practice would contain to put that button on the end of the menu.</i></small>
+</div>
+<br><br>
+
+
+### Quests
+
+1. Go on any website you are frequently using and find some bad pratices. Often when you are search for anything to long, it is most probably a sign for a bad [User Interface (UI)](../WCC-Glossary/#user-interface-ui).
+2. Take a screenshot and make a proposal how to do it better.
 
