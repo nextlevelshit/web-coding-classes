@@ -134,6 +134,8 @@ The hamburger menu is used to view options. It is referred to as hotdog menu or 
 
 ## K
 
+### Key Performance Indicator KPI
+
 ## L
 
 ## M
@@ -240,6 +242,8 @@ const foo = ['foo', 'bar', 'baz'] // setting value of `foo`
 ## U
 
 ### UC Browser
+
+### User Friendliness
 
 ## V
 
