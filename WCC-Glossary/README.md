@@ -33,6 +33,11 @@ It iterates in 0.1 steps. `type`, `min`, `max` and `step` are attributes.*
 
 ### Bug
 
+A bug is a coding error that usually causes glitches. 
+The term got its name from an incident, where an actual bug was pulled out of the Mark II coumputer.
+
+<sup>*Source: https://searchsoftwarequality.techtarget.com/definition/bug*</sup>
+
 ### Browser
 
 ## C
