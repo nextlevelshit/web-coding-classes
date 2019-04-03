@@ -11,12 +11,38 @@ The latter we want to tackle on this session.
 
 So, open up the [developer mode](../WCC-Glossary#developer-tools) of your browser by hitting <kbd>F12</kbd> on your keyboard or by right-clicking any content and select something like „Inspect element“ (*mind that each browser has a different naming for that interaction*).
 
-
+![Developer Tools in Chromium Web Browser](./developer-tools.png)
+<div align="center">
+  <small><i>Developer Tools in Chromium Web Browser</i></small>
+</div>
+<br><br>
 
 ## Brief explanation of the Developer Tools
 
+### Document Object Model (DOM)
 
 
+![Document Object Model (DOM) in Chromium Web Browser](./dom-chromium.png)
+<div align="center">
+  <small><i>Document Object Model (DOM) in Chromium Web Browser</i></small>
+</div>
+<br><br>
+
+### Style sheets (CSS)
+
+![Style Sheets (CSS) in Chromium Web Browser](./css-chromium.png)
+<div align="center">
+  <small><i>Style Sheets (CSS) in Chromium Web Browser</i></small>
+</div>
+<br><br>
+
+### The Console (JS)
+
+![JavaScript Console in Chromium Web Browser](./console-chromium.png)
+<div align="center">
+  <small><i>JavaScript Console in Chromium Web Browser</i></small>
+</div>
+<br><br>
 
 ## Basic functionality
 
