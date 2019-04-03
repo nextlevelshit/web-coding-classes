@@ -15,6 +15,9 @@
 
 ## Additional helpful Content
 
-| Title                           | Description                              |
-| ------------------------------- | ---------------------------------------- |
-| [Glossary](/WCC-Glossary)       | Glossary of Web Development Terms        |
+| Title                           | Description                                        |
+| ------------------------------- | -------------------------------------------------- |
+| [Glossary](/WCC-Glossary)       | Glossary of Web Development Terms                  |
+| [HTML](/WCC-HTML)               | Brief Introduction to HTML, its syntax and purpose |
+| [CSS](/WCC-CSS)                 | Brief Introduction to CSS, its syntax and purpose  |
+| [JavaScript](/WCC-JS)           | Brief Introduction to JS, its syntax and purpose   |
