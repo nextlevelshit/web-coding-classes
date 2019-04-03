@@ -11,7 +11,7 @@ The latter we want to tackle on this session.
 
 So, open up the [developer mode](../WCC-Glossary#developer-tools) of your browser by hitting <kbd>F12</kbd> on your keyboard or by right-clicking any content and select something like „Inspect element“ (*mind that each browser has a different naming for that interaction*).
 
-![Developer Tools in Chromium Web Browser](./developer-tools.png)
+![Developer Tools in Chromium Web Browser](./devtools-chromium.png)
 <div align="center">
   <small><i>Developer Tools in Chromium Web Browser</i></small>
 </div>
