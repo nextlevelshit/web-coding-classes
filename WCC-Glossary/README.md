@@ -86,6 +86,14 @@ Synonyms: Bash, Terminal, Command line (CLI), Shell
 
 ### Developer Tools
 
+### Difference between Open Source and FOSS
+
+Open Source and FOOS are essentially the same. The source code is open for use. However they differ in values and reasons. While in FOSS the aim of making the source code open for use is to help others and each other, in Open Source it represents a useful technique with which it's easier to keep the program free from bugs and add new features.
+
+In addition to that the term Open Source is not a secured name. When companies use that term it is not certain that e.g. the whole source code is accessible.
+
+Other than that both are used in the same situation which is why even though they have slight similarities they can describe the same software.
+
 ## E
 
 ### Ergonomics
@@ -113,6 +121,15 @@ An element consists of the opening tag, the closing tag and the content.
 ### Framework
 
 ### Free and Open Source Software (FOSS)
+
+FOSS follows four principles:
+
+1. There should be no constraints regarding the usage of the software (in relation to time, location etc.)
+1. The user should be able to examine the program, so that they can change it to fit their needs
+1. Copies can be redistributed
+1. Improving the software and its publication is permitted
+
+[Difference between FOSS and Open Source](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/README.md#Difference-between-Open-Source-and-FOSS)
 
 ## G
 
@@ -195,6 +212,11 @@ Synonyms: Collection, Array
 Synonyms: Entity
 
 ### Open-Source
+
+Open Source means that the code is open and therefor can be accessed by the user. Unlike [FOSS](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/README.md#FOSS) there are no set rules.
+
+
+[Difference between FOSS and Open Source](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/README.md#Difference-between-Open-Source-and-FOSS)
 
 ### Opera
 
