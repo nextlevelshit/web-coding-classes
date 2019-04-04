@@ -1,5 +1,18 @@
 # Glossary of Web Development Terms
 
+Here you will find a dictionary of common terms for web developers.
+These are mostly technical terms that are used frequently and defined very briefly.
+Understanding these terms will help you to learn the jargon which is relevant of any understanding.
+It is not super necessary to learn them by hard, but it is good to have them in mind and to know where to look them up.
+As an advice, try to grasp for a definition in your own words.
+
+*These definitions are sorted alphabetically.*
+*There is no consistent use of brackets.*
+*If a headline contains brackets it migth be an abbreviation or a explanation of an abbreviation.*
+*The first expression is the more commonly used term, e.g. nobody says Application Programming Interface, when she or he needs a connection between the Frontend and the Backend, everyone would say API.*
+*Some definitions also contain further information about more comprehensive information and synonyms in a broader sense.*
+*There are terms that are used in some cases like synonyms, but do have important differences.*
+
 ## A
 
 ### Accessibility (a11y)
@@ -8,15 +21,17 @@
 
 <sup>*Source: https://www.techopedia.com/definition/10165/accessibility-a11y*</sup>
 
-### Angular
+### Angular (ng)
 
 ### API (Application Programming Interface)
 
 https://dev.to/awwsmm/eli5-what-is-an-api-1dd2
 
-### Application
+### Application (App)
 
 ### Array
+
+Synonyms: Collection, List etc.
 
 ### (HTML) Attribute
 
@@ -30,6 +45,10 @@ https://dev.to/awwsmm/eli5-what-is-an-api-1dd2
 It iterates in 0.1 steps. `type`, `min`, `max` and `step` are attributes.*
 
 ## B
+
+### Bash
+
+Synonyms: Terminal, Command line (CLI), Shell, Console
 
 ### Bug
 
@@ -69,7 +88,7 @@ Synonyms: Bash, Terminal, Command line (CLI), Shell
 
 ## E
 
-### Egonomics
+### Ergonomics
 
 ### (HTML) Element
 
@@ -81,6 +100,8 @@ An element consists of the opening tag, the closing tag and the content.
 
 ### Endpoint
 
+### Entity
+
 ## F
 
 ### Fallback
@@ -88,8 +109,6 @@ An element consists of the opening tag, the closing tag and the content.
 ### Feature
 
 ### Firefox
-
-### Float
 
 ### Framework
 
@@ -103,18 +122,22 @@ An element consists of the opening tag, the closing tag and the content.
 
 ### Hamburger Menu
 
-The hamburger menu is used to view options. It is referred to as hotdog menu or three line menu as well. It got it's name from looking like a hamburger.
+The hamburger menu is used to view options.
+It is referred to as hotdog menu or three line menu as well.
+It got it's name from looking like a hamburger.
 
 <sup>*Source: https://www.computerhope.com/jargon/h/hamburger-menu.htm*</sup>
 
-### HTML
+### HTML (Hypertext Markup Language)
 
 > HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.
-> An HTML document is a plaintext document structured with elements. Elements are surrounded by matching opening and closing tags. Each tag begins and ends with angle brackets (<>).
+> An HTML document is a plaintext document structured with elements.
+> Elements are surrounded by matching opening and closing tags.
+> Each tag begins and ends with angle brackets (<>).
 
 <sup>*Source: https://developer.mozilla.org/en-US/docs/Glossary/HTML*</sup>
 
-### HTTP/S
+### HTTP/S (Hypertext Transfer Protocol/Secure)
 
 > The HyperText Transfer Protocol (HTTP) is the underlying network protocol that enables transfer of hypermedia documents on the Web, typically between a browser and a server so that humans can read them. The current version of the HTTP specification is called HTTP/2.
 
@@ -124,11 +147,11 @@ The hamburger menu is used to view options. It is referred to as hotdog menu or 
 
 ## I
 
-### IDE 
+### IDE (Integrated Development Environment)
 
 ### Internationalization (i16n)
 
-### Internet Explorer
+### Internet Explorer (IE)
 
 ## J
 
@@ -141,9 +164,15 @@ The hamburger menu is used to view options. It is referred to as hotdog menu or 
 
 ## K
 
-### Key Performance Indicator KPI
+### Key Performance Indicator (KPI)
 
 ## L
+
+### License
+
+### List
+
+Synonyms: Collection, Array
 
 ## M
 
@@ -153,9 +182,19 @@ The hamburger menu is used to view options. It is referred to as hotdog menu or 
 
 ## N
 
+### NodeJS
+
+### npm (Node Package Management)
+
+### npmjs.com
+
 ## O
 
-### Open Source
+### Object
+
+Synonyms: Entity
+
+### Open-Source
 
 ### Opera
 
