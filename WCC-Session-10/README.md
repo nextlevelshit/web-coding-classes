@@ -53,13 +53,13 @@ Languages have to be a list of strings and can be empty.
 let favoriteBook: Book = {
   title: `Brave New World`,
   author: `Aldous Huxley`,
-  year: 1930
+  year: 1932
 }
 
 const commonDictionary: Dictionary {
-  title: ``,
-  author: ``
-  year: 2014,
+  title: `Oxford German Dictionary`,
+  author: `Werner Scholze-Stubenrecht, John B. Sykes, Michael Clark`
+  year: 2008,
   languages: [`English`, `German`]
 }
 ```
@@ -124,6 +124,45 @@ Even if both companies collapse the software will still run and the community wi
 TypeScript and Gatsby look like a good choice, not only for sustainability and maintainability reason, but also for extensionabilty.
 If the customer decides to put some dynamic content, wants to adapt some more navigation items or what ever, I will be able to adapt this features easily.
 But if the client decides to be able to change content by his or her own, this might bring some problems.
-We do not think of a database nor a content management system.
-This should be clearified in detail with the client.
-Future feature requests like the latter one, will be quite hard but not impossible to realize.
+We do not expect to need a database nor a content management system.
+This should be clearified in detail with the client, if there migth come up some unknown necessaties.
+Future feature requests like the latter one will be quite hard, but not impossible, to realize.
+Instead of trying to forecast the whole life cycle of the software, there should be some more conversations after the project.
+In marketing theories you migth call it after sales, but this is missleading.
+You should not try to sell more stuff, but be there time to time and ask for changing desires.
+This will lead automatically to new project, new income and a deeper understanding of the needs of the client.
+
+### Entities
+
+Any well organized and planned software project will need a phase in which you will concentrate on setting up the fundamentals.
+The basis will be the entities.
+These are the objects that will be send between components, they will limit your possibilities, they will decide what is possible and what not.
+
+```ts
+interface Page {
+  title: string;
+  meta: PageMeta;
+  parent?: Page;
+  children?: Page[];
+}
+
+interface PageMeta {
+  createdAt: Date;
+  updatedAt: Date;
+  keywords?: string[];
+  description?: string;
+  author?: string;
+}
+
+interface Contact {
+  name: string;
+  telephone: string;
+  email: string;
+  address: {
+    street: string;
+    city: string;
+    postalCode: string;
+    countryName: string;
+  }
+}
+```
