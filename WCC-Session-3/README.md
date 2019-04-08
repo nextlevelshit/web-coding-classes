@@ -21,6 +21,11 @@ So, open up the [developer mode](../WCC-Glossary#developer-tools) of your browse
 
 ### Document Object Model (DOM)
 
+The so called DOM represents the rendered HTML document.
+This is not equal to the source code.
+The source code is more or less the basis of your document and top some elements migth change during runtime, e.g. through JS scripts or other programming.
+When you've opened the DOM you can hover each element and it will be highlighted inside your view.
+This part of the developer tools is mostly useful for analysing the rendered DOM, removing parts or rearranging elements.
 
 ![Document Object Model (DOM) in Chromium Web Browser](./dom-chromium.png)
 <div align="center">
@@ -28,13 +33,88 @@ So, open up the [developer mode](../WCC-Glossary#developer-tools) of your browse
 </div>
 <br><br>
 
+*Quests:*
+
+1. Open any website and remove elements, that are unnecessary in your point of view.
+2. Play around. You cannot do anything wrong. If you've removed accidentally something, just hit <kbd>Ctrl</kbd> + <kbd>Z</kbd> on Windows and Linux or <kbd>Cmd</kbd> + <kbd>Z</kbd> on your Mac.
+
 ### Style sheets (CSS)
+
+While having an element highlighted you will find the element-specific stylings.
+Styles are mostly attached to the `class` attribute of the HTML element.
+
+```css
+.coming-soon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+```
+
+The dot in front of the CSS expression indicates that it fits to any element, that has `class="coming-soon"` defined.
+These are called *selectors*.
+
+```css
+p {
+  color: darkgray;
+}
+```
+
+```html
+<article>
+  <h1>Headline</h1>
+  <p>Lorem ipsum dolor sit amet ...</p>
+</article>
+```
+
+The above selector rule or expression will look for any `<p>` tag and adapt its styling, namley to color the text red.
+
+
+```css
+.title {
+  color: blueviolet;
+}
+```
+
+```html
+<article>
+  <h1 class="title">Headline</h1>
+  <p>Lorem ipsum dolor sit amet ...</p>
+</article>
+```
+
+In this case the expression `.title` will look for `class="title"` inside the DOM and color the text in blue violet.
+
+
+```css
+#description {
+  color: orangered;
+}
+```
+
+```html
+<article>
+  <h1 class="title">Headline</h1>
+  <div id="description">This paragraph describes the article</div>
+  <p>Lorem ipsum dolor sit amet ...</p>
+</article>
+```
+
+Here we are using a different selector. 
+Instead of looking for the class or a specific HTML tag, the expression looks for any tag that contains `id="description"`.
 
 ![Style Sheets (CSS) in Chromium Web Browser](./css-chromium.png)
 <div align="center">
   <small><i>Style Sheets (CSS) in Chromium Web Browser</i></small>
 </div>
 <br><br>
+
+*Quests:*
+
+1. Open any website and change the style expressions in the developer tools.
+2. Also adapt some new rules by clicking inside the expressions, add a new line by hitting <kbd>Return<kbd> and then press <kbd>Ctrl</kbd> + <kbd><Space/kbd>. This will open a drop-down menu.
 
 ### The Console (JS)
 
