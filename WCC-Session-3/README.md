@@ -45,11 +45,11 @@ Styles are mostly attached to the `class` attribute of the HTML element.
 
 ```css
 .coming-soon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 ```
 
@@ -57,6 +57,7 @@ The dot in front of the CSS expression indicates that it fits to any element, th
 These are called *selectors*.
 
 ```css
+// Element selctor
 p {
   color: darkgray;
 }
@@ -72,9 +73,12 @@ p {
 The above selector rule or expression will look for any `<p>` tag and adapt its styling, namley to color the text red.
 
 ```css
+// Class selector
 .title {
   color: blueviolet;
+  // One line inside the CSS rule indicates an expression
 }
+// Everything inside the curley brackets indicates the CSS rule
 ```
 
 ```html
@@ -87,8 +91,12 @@ The above selector rule or expression will look for any `<p>` tag and adapt its 
 In this case the expression `.title` will look for `class="title"` inside the DOM and color the text in blue violet.
 
 ```css
+// ID selector
 #description {
   color: orangered;
+  // │       └─── Indicates the value of the expression
+  // │
+  // └─────────── Indicates the property of the expression
 }
 ```
 
@@ -102,6 +110,9 @@ In this case the expression `.title` will look for `class="title"` inside the DO
 
 Here we are using a different selector. 
 Instead of looking for the class or a specific HTML tag, the expression looks for any tag that contains `id="description"`.
+You should not use the same ID for different elements.
+ID stands for *identifier*  and should uniquely identify an element.
+For general rules use `class` with the `.` selector.
 
 ![Style Sheets (CSS) in Chromium Web Browser](./css-chromium.png)
 <div align="center">
@@ -112,7 +123,10 @@ Instead of looking for the class or a specific HTML tag, the expression looks fo
 *Quests:*
 
 1. Open any website and change the style expressions in the developer tools.
-2. Also adapt some new rules by clicking inside the expressions, add a new line by hitting <kbd>Return</kbd> and then press <kbd>Ctrl</kbd> + <kbd><Space/kbd>. This will open a drop-down menu.
+2. Also adapt some new rules by clicking inside the expressions, add a new line by hitting <kbd>Return</kbd> and then press <kbd>Ctrl</kbd> + <kbd><Space/kbd>.
+   This will open a drop-down menu with possible style properties.
+   Choose one, hit <kbd>↹</kbd> to switch into the value field and also hit <kbd>Ctrl</kbd> + <kbd><Space/kbd>.
+   Add some stylings and play around.
 
 ### The Console (JS)
 
