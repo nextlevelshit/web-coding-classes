@@ -290,6 +290,8 @@ Source: https://developer.mozilla.org/en-US/docs/Glossary/Server
 
 ## T
 
+### Tabulator <kbd>↹</kbd>
+
 ### Template
 
 ### Template engine
