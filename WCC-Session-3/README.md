@@ -125,7 +125,7 @@ For general rules use `class` with the `.` selector.
 1. Open any website and change the style expressions in the developer tools.
 2. Also adapt some new rules by clicking inside the expressions, add a new line by hitting <kbd>Return</kbd> and then press <kbd>Ctrl</kbd> + <kbd>Space</kbd>.
    This will open a drop-down menu with possible style properties.
-   Choose one, hit <kbd>↹</kbd> to switch into the value field and also hit <kbd>Ctrl</kbd> + <kbd><Space/kbd>.
+   Choose one, hit <kbd>↹</kbd> to switch into the value field and also hit <kbd>Ctrl</kbd> + <kbd>Space</kbd>.
    Add some stylings and play around.
 
 ### The Console (JS)
