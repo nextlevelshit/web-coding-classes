@@ -122,7 +122,10 @@ For general rules use `class` with the `.` selector.
 
 *Quests:*
 
-1. Open any website and change the style expressions in the developer tools.
+1. Open https://de.wikipedia.org/wiki/Ada_Lovelace and change style expressions in the developer tools.
+   Mark `<h1 id="firstHeading" class="firstHeading" lang="de">Ada Lovelace</h1>` inside the DOM window and change the styles of `.mw-body .firstHeading`.
+   For example change the text color by `color: red` or anything else.
+   
 2. Also adapt some new rules by clicking inside the expressions, add a new line by hitting <kbd>Return</kbd> and then press <kbd>Ctrl</kbd> + <kbd>Space</kbd>.
    This will open a drop-down menu with possible style properties.
    Choose one, hit <kbd>↹</kbd> ([Tabulator](../WCC-Glossary#tabulator)) to switch into the value field and also hit <kbd>Ctrl</kbd> + <kbd>Space</kbd>.
@@ -180,11 +183,12 @@ Therefore is some knowledge necessary.
 
 *Quests:*
 
-1. Open the console and try to select a stecifiy HTML tag by `document.querySelector()`.
+1. Open the console and try to select a specific HTML tag by `document.querySelector()`.
    Inside the brackets you should write something like `'body'` or `'.headline'` or any other CSS selector.
+   For example open https://de.wikipedia.org/wiki/Ada_Lovelace and mark the headline by `document.querySelector('h1')`.
    
-2. As soon as a HTML element will be return in your console, you can hover it and it will be highlighted in your website.
-   Define a variable for later usage, e.g. `let element = document.querySelector('body')`.
+2. As soon as a HTML element will be returned in your console, you can hover it and it will be highlighted in your website.
+   Define a variable for later usage, e.g. `let element = document.querySelector('h1')`.
    
 3. Type `el.` and hit the short-cut for dislaying suggestions (<kbd>Ctrl</kbd> + <kbd>Space</kbd>) and look around.
 
