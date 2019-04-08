@@ -69,7 +69,7 @@ The term got its name from an incident, where an actual bug was pulled out a com
 
 ### Console
 
-Synonyms: Bash, Terminal, Command line (CLI), Shell
+Synonyms: Bash, Terminal, Command Line Interface (CLI), Shell
 
 ### Cross-Site-Script (XSS)
 
