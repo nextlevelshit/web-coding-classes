@@ -86,6 +86,8 @@ Synonyms: Bash, Terminal, Command Line Interface (CLI), Shell
 
 ### Developer Tools
 
+### Developer Mode
+
 ### Difference between Open Source and FOSS
 
 Open Source and FOOS are essentially the same. The source code is open for use. However they differ in values and reasons. While in FOSS the aim of making the source code open for use is to help others and each other, in Open Source it represents a useful technique with which it's easier to keep the program free from bugs and add new features.
