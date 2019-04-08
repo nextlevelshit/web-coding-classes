@@ -71,7 +71,6 @@ p {
 
 The above selector rule or expression will look for any `<p>` tag and adapt its styling, namley to color the text red.
 
-
 ```css
 .title {
   color: blueviolet;
@@ -86,7 +85,6 @@ The above selector rule or expression will look for any `<p>` tag and adapt its 
 ```
 
 In this case the expression `.title` will look for `class="title"` inside the DOM and color the text in blue violet.
-
 
 ```css
 #description {
@@ -114,7 +112,7 @@ Instead of looking for the class or a specific HTML tag, the expression looks fo
 *Quests:*
 
 1. Open any website and change the style expressions in the developer tools.
-2. Also adapt some new rules by clicking inside the expressions, add a new line by hitting <kbd>Return<kbd> and then press <kbd>Ctrl</kbd> + <kbd><Space/kbd>. This will open a drop-down menu.
+2. Also adapt some new rules by clicking inside the expressions, add a new line by hitting <kbd>Return</kbd> and then press <kbd>Ctrl</kbd> + <kbd><Space/kbd>. This will open a drop-down menu.
 
 ### The Console (JS)
 
