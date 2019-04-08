@@ -195,6 +195,12 @@ Synonyms: Collection, Array
 
 ### Markdown (MD)
 
+Markdown similar to a coding language like html, exept it's much easier and not considert a programming language. Amongst others it is used on GitHub to format text.
+
+[Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) you can find an explanation on how to use it.
+
+<sup>*Source: https://t3n.de/news/eigentlich-markdown-478610/*</sup>
+
 ### Mozilla Developer Network (MDN)
 
 ## N
