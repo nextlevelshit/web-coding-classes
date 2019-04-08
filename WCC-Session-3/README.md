@@ -127,8 +127,17 @@ For general rules use `class` with the `.` selector.
    This will open a drop-down menu with possible style properties.
    Choose one, hit <kbd>↹</kbd> ([Tabulator](../WCC-Glossary#tabulator)) to switch into the value field and also hit <kbd>Ctrl</kbd> + <kbd>Space</kbd>.
    Add some stylings and play around.
+   
+*Further reading*:
+
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Syntax
 
 ### The Console (JS)
+
+The JavaScript console is most proberly the most powerfool tool of the developer tools.
+You're having access to the whole JS code base that runs on the website.
+You can even run even code that does not has to do with anything on the website.
+Therefore is some knowledge necessary.
 
 ![JavaScript Console in Chromium Web Browser](./console-chromium.png)
 <div align="center">
@@ -136,10 +145,49 @@ For general rules use `class` with the `.` selector.
 </div>
 <br><br>
 
+*Quests:*
+
+1. Open the console and click into the comand line to put the cursor there. Hit <kbd>Ctrl</kbd> + <kbd>Space</kbd> to open the drop-down menu with suggestions.
+   Just look around.
+   
+2. Type `alert('Hello World')` and hit <kbd>Return</kbd>.
+   A popup should open.
+   
+3. Make some mathematical calculations, e.g. `10 * 5 + 3`.
+   The result will be returned under your expression.
+
+4. Instead of just promptin the result prepend `let x =` to your expression: `let x = 10 * 5 + 3`
+   The result will be stored and you can reuse the result.
+   Just type `x` into the comand line and return the result.
+   
+*Further reading*:
+
+- https://developer.mozilla.org/en-US/docs/Tools/Browser_Console
+
 ## Basic functionality
 
 ## DOM Manipulation
 
 `window`
 
+> Explanation is missing
+> https://developer.mozilla.org/en-US/docs/Web/API/Window
+
 `document`
+
+> Explanation is missing
+> https://developer.mozilla.org/en-US/docs/Web/API/Document
+
+*Quests:*
+
+1. Open the console and try to select a stecifiy HTML tag by `document.querySelector()`.
+   Inside the brackets you should write something like `'body'` or `'.headline'` or any other CSS selector.
+   
+2. As soon as a HTML element will be return in your console, you can hover it and it will be highlighted in your website.
+   Define a variable for later usage, e.g. `let element = document.querySelector('body')`.
+   
+3. Type `el.` and hit the short-cut for dislaying suggestions (<kbd>Ctrl</kbd> + <kbd>Space</kbd>) and look around.
+
+4. Return the inner HTML text of your selected element by `el.innerHTML`
+
+5. Change the inner HTML text of the element by re-defining the value of `innerHTML` by `el.innerHTML = 'That is my new content'`.
