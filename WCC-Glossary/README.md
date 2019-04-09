@@ -228,6 +228,12 @@ Open Source means that the code is open and therefor can be accessed by the user
 
 ## P
 
+### Padding
+
+Padding is used in CSS to indicate how much space there is around paragraphs, headings etc. 
+
+<sup>*Source: https://developer.mozilla.org/en-US/docs/Web/CSS/padding*</sup>
+
 ### Pixel-perfect
 
 ### Progressive Web App (PWA)
