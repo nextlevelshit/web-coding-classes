@@ -173,14 +173,15 @@ Therefore is some knowledge necessary.
 
 `window`
 
-> The DOM document is visible in the window that represents the window property. With the document.defaultView property a window for a document can be obtained.
+The DOM document is visible in the window that represents the window property. With the document.defaultView property a window for a document can be obtained.
 
 <sup>*https://developer.mozilla.org/en-US/docs/Web/API/Window*</sup>
 
 `document`
 
-> Explanation is missing
-> https://developer.mozilla.org/en-US/docs/Web/API/Document
+The document interface is a representations any possible web page on the browser. It makes it possible to enter into the web pages content (the DOM tree). It includes elements like <body> and <head>. It gives the possiblity to obtain the page's URL and create new elements in the document 
+
+<sup>*https://developer.mozilla.org/en-US/docs/Web/API/Document*</sup>
 
 *Quests:*
 
