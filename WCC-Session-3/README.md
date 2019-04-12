@@ -173,8 +173,9 @@ Therefore is some knowledge necessary.
 
 `window`
 
-> Explanation is missing
-> https://developer.mozilla.org/en-US/docs/Web/API/Window
+> The DOM document is visible in the window that represents the window property. With the document.defaultView property a window for a document can be obtained.
+
+<sup>*https://developer.mozilla.org/en-US/docs/Web/API/Window*</sup>
 
 `document`
 
