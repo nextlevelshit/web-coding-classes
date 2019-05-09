@@ -84,9 +84,8 @@ For this purpose, there are research areas that work in full awareness to increa
 This would not be wrong in principle if a company wanted to increase its profits, but not at the expense of [user-friendliness](../WCC-Glossary/#user-friendliness).
 
 All this leads to users getting used to such designs and then not being able to deal with real [usability](../WCC-Glossary/#usability) and [ergonomics](../WCC-Glossary/#egonomics), since user behavior has already adapted.
-For this reason, a small but important part of designers has joined forces to counteract this.
-Aral Balkan is definitely one of the pioneers.
-He founded the manifesto on *ethical design* which can be found on https://2017.ind.ie/ethical-design/
+
+Finally, there is a even more foundational question of the ethics of the business model of the organisation that creates the product. Is the business model ethical? Or does it rely on violating privacy, a fundamental human right. There is growing awareness of the toxic ramifications of the surveillance-based business model of mainstream Silicon Valley technology on democracy and human rights. Aral Balkan calls this business model “people farming” and Shoshana Zuboff describes the greater socio-economic system that it exists within “surveillance capitalism”. Initiatives like [small technology](https://ar.al/2019/03/04/small-technology/) and the [ethical design manifesto](http://ind.ie/ethical-design) aim to address such concerns.
 
 ![Example for bad practice on twitter.com](./twitter-logout.png)
 <div align="center">
