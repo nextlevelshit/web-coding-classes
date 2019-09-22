@@ -178,6 +178,12 @@ It got it's name from looking like a hamburger.
 
 ### IDE (Integrated Development Environment)
 
+| Open Source Code Editors                     |
+|----------------------------------------------|
+| [VS Code](https://code.visualstudio.com/)    |
+| [Atom IDE](https://ide.atom.io/)             |
+| [Sublime Text](https://www.sublimetext.com/) |
+
 ### Internationalization (i16n)
 
 ### Internet Explorer (IE)
