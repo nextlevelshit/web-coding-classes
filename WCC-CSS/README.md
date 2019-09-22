@@ -1,4 +1,4 @@
-# CSS (Cascading Stylesheets)
+# CSS (Cascading Style Sheets)
 
 Besides HTML files most websites use CSS files to maintain the styling.
 HTML structures the content of a website and CSS styles them.
@@ -8,6 +8,13 @@ CSS uses rulesets to address curtain HTML elements in specific context.
 This means you are styling HTML elements in general, rather than adapting a specific styling to every single HTML element.
 
 **Note:** *If you are not familiar with the HTML syntax yet, reading the [WCC-HTML](./../WCC-HTML) could be a nice introduction for you.*
+
+## Basic HTML Layout without Stylings
+
+To be able to style something we will need some content.
+I have prepared a basic layout with all kinds of different HTML elements.
+Feel free to use it in an [online code editor like CodePen](https://codepen.io/dailysh-it/pen/gOYZXQX) or copy it to your local development environment.
+If you are not using an IDE (Integrated Development Environment) yet, have a look on our [list of IDE's](WCC-Glossary#ide-integrated-development-environment).
 
 ```html
 <!DOCTYPE html>
@@ -52,6 +59,11 @@ This means you are styling HTML elements in general, rather than adapting a spec
           <li>
             <a href="#">At Work</a>
             <!-- Sub Navigation -->
+            <ul>
+              <li>
+                <a href="#">Paperless Office</a>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#">For Traveling</a>
@@ -59,6 +71,9 @@ This means you are styling HTML elements in general, rather than adapting a spec
             <ul>
               <li>
                 <a href="#">Carsharing</a>
+              </li>
+              <li>
+                <a href="#">Vehicles in Comparison</a>
               </li>
             </ul>
           </li>
@@ -68,6 +83,15 @@ This means you are styling HTML elements in general, rather than adapting a spec
             <ul>
               <li>
                 <a href="#">Carsharing</a>
+              </li>
+              <li>
+                <a href="#">Railways & Train</a>
+              </li>
+              <li>
+                <a href="#">Cycling</a>
+              </li>
+              <li>
+                <a href="#">E-Mobility</a>
               </li>
             </ul>
           </li>
@@ -90,14 +114,18 @@ This means you are styling HTML elements in general, rather than adapting a spec
       </nav>
       
       <h1>Eco-friendliness that you can start right now with your electronical devices</h1>
-      <p></p>
-      <p></p>
-      <h2></h2>
-      <p></p>
-      <p></p>
-      
+      <p>
+        Did you know that your phone charger consumes power all the time when you plug it into the wall?
+        Normally there is no on/off switch for the chargers.
+        That's why they draw power even when the phone isn't plugged in.
+        The same applies to electronical toothbrushes, laptops, shavers and many other devices.
+      </p>
+      <p>
+        So, there is an easy thing you can keep in mind: Plug off the charger, as soon as your device is charged or not plugged in.
+      </p>
       <footer>
-        
+        This document was maintained by Andrew, Sawah, Mohammad and Larissa.
+        Feel free to <a href="#">edit the content on GitHub</a>.
       </footer>
       
     </main>
