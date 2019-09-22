@@ -12,7 +12,7 @@ This means you are styling HTML elements in general, rather than adapting a spec
 ## Basic HTML Layout without Stylings
 
 To be able to style something we will need some content.
-I have prepared a basic layout with all kinds of different HTML elements.
+We have prepared a basic layout with all kind of different HTML elements.
 Feel free to use it in an [online code editor like CodePen](https://codepen.io/dailysh-it/pen/gOYZXQX) or copy it to your local development environment.
 If you are not using an IDE (Integrated Development Environment) yet, have a look on our [list of IDE's](WCC-Glossary#ide-integrated-development-environment).
 
