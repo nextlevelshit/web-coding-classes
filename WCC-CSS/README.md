@@ -133,3 +133,10 @@ If you are not using an IDE (Integrated Development Environment) yet, have a loo
   </body>
 </html>
 ```
+
+
+![Basic HTML Layout without any specified CSS Rulesets](./css-basic-layout.png)
+<div align="center">
+  <small><i>Basic HTML Layout without any specified CSS Rulesets</i></small>
+</div>
+<br><br>
