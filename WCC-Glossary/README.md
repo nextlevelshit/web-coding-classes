@@ -353,6 +353,6 @@ const foo = ['foo', 'bar', 'baz'] // setting value of `foo`
 
 ## Z
 
-[1]: http:
+[1]: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 [2]: https://specificity.keegan.st/
 [3]: https://specifishity.com/
