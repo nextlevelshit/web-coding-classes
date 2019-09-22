@@ -50,6 +50,18 @@ It iterates in 0.1 steps. `type`, `min`, `max` and `step` are attributes.*
 
 Synonyms: Terminal, Command line (CLI), Shell, Console
 
+### BEM (Block Element Modifier)
+
+BEM is a highly useful, powerful, and simple naming convention that makes your front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit, and a lot more strict.
+
+```css
+.person { }       /* Block  */
+.person__head { } /* Element */
+.person--tall { } /* Modifier */
+```
+
+<sup>*Source: http://getbem.com/introduction/*</sup>
+
 ### Bug
 
 A bug is a coding error that usually causes glitches. 
