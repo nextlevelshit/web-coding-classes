@@ -16,6 +16,13 @@ I have prepared a basic layout with all kinds of different HTML elements.
 Feel free to use it in an [online code editor like CodePen](https://codepen.io/dailysh-it/pen/gOYZXQX) or copy it to your local development environment.
 If you are not using an IDE (Integrated Development Environment) yet, have a look on our [list of IDE's](WCC-Glossary#ide-integrated-development-environment).
 
+
+![Basic HTML Layout without any specified CSS Rulesets](./css-basic-layout.png)
+<div align="center">
+  <small><i>Basic HTML Layout without any specified CSS Rulesets</i></small>
+</div>
+<br><br>
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -133,10 +140,3 @@ If you are not using an IDE (Integrated Development Environment) yet, have a loo
   </body>
 </html>
 ```
-
-
-![Basic HTML Layout without any specified CSS Rulesets](./css-basic-layout.png)
-<div align="center">
-  <small><i>Basic HTML Layout without any specified CSS Rulesets</i></small>
-</div>
-<br><br>
