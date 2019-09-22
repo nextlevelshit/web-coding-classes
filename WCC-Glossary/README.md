@@ -85,12 +85,17 @@ Synonyms: Bash, Terminal, Command Line Interface (CLI), Shell
 
 ### Cross-Site-Script (XSS)
 
-### CSS
+### CSS (Cascading Style Sheets)
+
 > CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.
 > The browser applies CSS style declarations to selected elements to display them properly.
 > A style declaration contains the properties and their values, which determine how a webpage looks.
 
 <sup>*Source: https://developer.mozilla.org/en-US/docs/Glossary/CSS*</sup>
+
+| Further Reads                              |
+| -------------------------------------------|
+| [CSS Guidlines](https://cssguidelin.es/)   |
 
 ## D
 
@@ -268,7 +273,7 @@ Padding is used in CSS to indicate how much space there is around paragraphs, he
 
 ### Responsive Webdesign
 
->Responsive design is the practice of designing a website so it looks and works properly on a range of different devices — particularly mobile phones and tablets as well as desktops and laptops.
+> Responsive design is the practice of designing a website so it looks and works properly on a range of different devices — particularly mobile phones and tablets as well as desktops and laptops.
 
 Source: https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
 
@@ -278,7 +283,8 @@ Source: https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
 
 ### Rust
 
->Rust is a new open-source systems programming language created by Mozilla and a community of volunteers, designed to help developers create fast, secure applications which take full advantage of the powerful features of modern multi-core processors. It prevents segmentation faults and guarantees thread safety, all with an easy-to-learn syntax.
+> Rust is a new open-source systems programming language created by Mozilla and a community of volunteers, designed to help developers create fast, secure applications which take full advantage of the powerful features of modern multi-core processors.
+> It prevents segmentation faults and guarantees thread safety, all with an easy-to-learn syntax.
 
 Source: https://developer.mozilla.org/en-US/docs/Mozilla/Rust
 
