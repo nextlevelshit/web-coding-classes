@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config
+ *
+ * BASE
+ * Anchors..............
+ * Paragraphs...........
+ * Headings.............H1–H2 styles
+ *
+ * HELPERS
+ * Container............Wrapping and constraining elements
+ * Lists................Arranging lists in different orientation
+ *
+ * COMPONENTS
+ * Page-head............The main page header
+ * Page-foot............The main page footer
+ * Buttons..............Button elements
+ *
+ * TRUMPS
+ * Text.................Text helpers
+ */
+/*------------------------------------*\
+  #SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+body,
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f3f7f0;
+  color: #19323c;
+  font-family: monospace;
+  font-size: 1rem; }
+
+a {
+  color: #f2545b;
+  text-decoration: none;
+  border-bottom: 1px solid #f58287;
+  transition: all 230ms ease-in; }
+
+a:hover, a:focus {
+  border-color: #f2545b; }
+
+h1,
+h2 {
+  max-width: 80%; }
+
+p {
+  line-height: 150%; }
+
+/*------------------------------------*\
+  #HELPERS
+\*------------------------------------*/
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem; }
+
+/**
+ * The flex class is supposed to be used in two different orientations:
+ * 
+ * 1. Rows (by default)
+ * 2. Columns
+ */
+.flex {
+  display: flex;
+  /* [1] */
+  flex-flow: row;
+  margin: 0 -0.5rem;
+  /* [2] */ }
+
+.flex--column {
+  flex-flow: column; }
+
+.flex__item {
+  padding: 0 0.5rem; }
+
+/**
+ * Lists are in general unstyled and come in two different orientations:
+ * 
+ * 1) Vertical (by default)
+ * 2) Horizontal
+ * 
+ * Most lists will have links inside, so the links are styled without
+ * any other class.
+ */
+.list {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0; }
+
+.list__item {
+  list-style-type: none;
+  white-space: nowrap; }
+
+.list__item a {
+  display: block; }
+
+.list__item a:hover, .list__item a:focus {
+  color: #f58287; }
+
+.list--horizontal {
+  flex-flow: row; }
+
+.list--horizontal .list__item {
+  display: flex; }
+
+.list--horizontal .list__item:not(:nth-child(1)):before {
+  content: "›";
+  display: inline-block;
+  margin: 0 0.4rem; }
+
+.list--menu > .list__item a {
+  border: none;
+  padding: 0.5rem 0; }
+
+.list--sub-menu {
+  margin-left: 1.5rem; }
+
+.list--sub-menu .list__item a {
+  position: relative; }
+
+.list--sub-menu .list__item a:before {
+  position: absolute;
+  left: -1rem;
+  content: "·";
+  opacity: 0;
+  transition: all 230ms ease-in; }
+
+.list--sub-menu .list__item a:hover:before, .list--sub-menu .list__item a:focus:before {
+  opacity: 1;
+  transform: scale(2); }
+
+/*------------------------------------*\
+  #COMPONENTS
+\*------------------------------------*/
+.page-head {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  background: #f2545b;
+  background-image: linear-gradient(160deg, #f2545b, #eda257);
+  color: #f9fbf8; }
+
+.page-head span {
+  font-weight: bold; }
+
+.page-menu {
+  min-width: 16rem;
+  margin-right: 1rem; }
+
+.page-menu__title {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-bottom: 1rem; }
+
+.page-menu__list {
+  margin: 1rem 0 2rem; }
+
+.page-main__footer {
+  margin: 2rem 0;
+  padding: 0.5rem 0;
+  opacity: 0.75;
+  border-top: 1px solid #19323c;
+  font-size: 0.6rem; }
+
+/*------------------------------------*\
+  #TRUMPS
+\*------------------------------------*/
+.text--small {
+  font-size: 0.6rem !important; }

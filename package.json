@@ -1,0 +1,35 @@
+{
+  "name": "web-coding-classes",
+  "version": "1.0.0-0",
+  "description": "For beginners - Internet, Web and ethical Coding Classes",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "examples": "npm-run-all examples:*",
+    "examples:build": "npm run css:build",
+    "css:build": "npm-run-all css:build:* css:format:*",
+    "css:dev": "run-p css:serve css:watch:*",
+    "css:serve": "serve WCC-CSS/examples",
+    "css:build:scss": "node-sass -r WCC-CSS/examples -o WCC-CSS/examples",
+    "css:watch:scss": "node-sass -r --watch WCC-CSS/examples -o WCC-CSS/examples",
+    "css:format:css": "prettier --write 'WCC-CSS/**/*.css'",
+    "css:format:scss": "prettier --write 'WCC-CSS/**/*.scss'",
+    "css:format:html": "prettier --write 'WCC-CSS/**/*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextlevelshit/web-coding-classes.git"
+  },
+  "author": "Michael Czechowski <mail@dailysh.it>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nextlevelshit/web-coding-classes/issues"
+  },
+  "homepage": "https://github.com/nextlevelshit/web-coding-classes#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "1.18.2",
+    "serve": "^11.1.0"
+  }
+}
