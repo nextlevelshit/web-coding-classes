@@ -6,174 +6,242 @@
  * Global...............Globally-available variables and config
  *
  * BASE
- * Anchors..............
- * Paragraphs...........
+ * Resets...............Resetting HTML and BODY
+ * Anchors..............Links in general and with external targets
+ * Paragraphs...........Text, font and positioning
  * Headings.............H1–H2 styles
+ * Ordered Lists........
  *
  * HELPERS
  * Container............Wrapping and constraining elements
+ * Flex.................Flexbox support
  * Lists................Arranging lists in different orientation
  *
  * COMPONENTS
  * Page-head............The main page header
- * Page-foot............The main page footer
- * Buttons..............Button elements
+ * Page-menu............The main page navigation
+ * Page-main............The main page content
+ * Page-footer..........The main page footer
+ * Breadcrumb...........The main page footer
  *
  * TRUMPS
  * Text.................Text helpers
  */
-/*------------------------------------*\
+/*---------------------------------------------------------------------------*\
   #SETTINGS
-\*------------------------------------*/
-/*------------------------------------*\
+\*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*\
   #BASE
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 body,
 html {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   background: #f3f7f0;
   color: #19323c;
   font-family: monospace;
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 a {
   color: #f2545b;
   text-decoration: none;
-  border-bottom: 1px solid #f58287;
-  transition: all 230ms ease-in; }
-
-a:hover, a:focus {
-  border-color: #f2545b; }
+  border-bottom: 1px solid transparent;
+  transition: all 120ms ease-in;
+}
+a:hover,
+a:focus {
+  border-color: #f58287;
+}
+a[href^="http"]:after {
+  content: " →";
+}
 
 h1,
-h2 {
-  max-width: 80%; }
+h2,
+h3,
+h4 {
+  max-width: 80%;
+  margin-top: 2rem;
+}
 
 p {
-  line-height: 150%; }
+  line-height: 150%;
+}
 
-/*------------------------------------*\
+ol li {
+  margin-bottom: 0.5rem;
+}
+
+/*---------------------------------------------------------------------------*\
   #HELPERS
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 .container {
   max-width: 60rem;
   margin: 0 auto;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+}
 
 /**
  * The flex class is supposed to be used in two different orientations:
  * 
  * 1. Rows (by default)
  * 2. Columns
+ * 
+ * Regardless of the orientation every flex child has a specified gap to the
+ * next element. Therefore the wrapper class `.flex` has to be margined by a 
+ * corresponding *negative* value.
  */
 .flex {
   display: flex;
   /* [1] */
   flex-flow: row;
   margin: 0 -0.5rem;
-  /* [2] */ }
-
+  /* [2] */
+}
 .flex--column {
-  flex-flow: column; }
-
+  flex-flow: column;
+}
 .flex__item {
-  padding: 0 0.5rem; }
+  padding: 0 0.5rem;
+}
 
 /**
  * Lists are in general unstyled and come in two different orientations:
  * 
- * 1) Vertical (by default)
- * 2) Horizontal
+ * 1. Vertical (by default)
+ * 2. Horizontal
  * 
  * Most lists will have links inside, so the links are styled without
  * any other class.
  */
 .list {
   display: flex;
+  /* [1] */
   flex-flow: column;
   margin: 0;
-  padding: 0; }
-
+  padding: 0;
+  /* [2] */
+}
 .list__item {
   list-style-type: none;
-  white-space: nowrap; }
-
+  white-space: nowrap;
+}
 .list__item a {
-  display: block; }
-
-.list__item a:hover, .list__item a:focus {
-  color: #f58287; }
-
+  display: block;
+}
+.list__item a:hover,
+.list__item a:focus {
+  color: #f58287;
+}
 .list--horizontal {
-  flex-flow: row; }
-
+  flex-flow: row;
+}
 .list--horizontal .list__item {
-  display: flex; }
-
+  display: flex;
+}
 .list--horizontal .list__item:not(:nth-child(1)):before {
   content: "›";
   display: inline-block;
-  margin: 0 0.4rem; }
-
-.list--menu > .list__item a {
+  margin: 0 0.5rem;
+}
+.list--menu .list__item a {
   border: none;
-  padding: 0.5rem 0; }
-
+  padding: 0.5rem 0;
+}
+.list--menu .list__item.list__item--active {
+  font-weight: bold;
+}
 .list--sub-menu {
-  margin-left: 1.5rem; }
-
+  margin-left: 1.5rem;
+}
+.list--sub-menu .list__item.list__item--active a:before {
+  opacity: 1;
+  transform: scale(2);
+}
 .list--sub-menu .list__item a {
-  position: relative; }
-
+  position: relative;
+}
 .list--sub-menu .list__item a:before {
   position: absolute;
   left: -1rem;
   content: "·";
   opacity: 0;
-  transition: all 230ms ease-in; }
-
-.list--sub-menu .list__item a:hover:before, .list--sub-menu .list__item a:focus:before {
+  transition: all 120ms ease-in;
+}
+.list--sub-menu .list__item a:hover:before,
+.list--sub-menu .list__item a:focus:before {
   opacity: 1;
-  transform: scale(2); }
+  transform: scale(2);
+}
 
-/*------------------------------------*\
+/*---------------------------------------------------------------------------*\
   #COMPONENTS
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 .page-head {
-  padding: 1rem 0;
   margin-bottom: 2rem;
   background: #f2545b;
   background-image: linear-gradient(160deg, #f2545b, #eda257);
-  color: #f9fbf8; }
-
+  color: #f9fbf8;
+}
+.page-head__link {
+  display: block;
+  padding: 1rem 0;
+  color: #f9fbf8;
+}
+.page-head__link:hover,
+.page-head__link:focus {
+  opacity: 0.75;
+}
 .page-head span {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .page-menu {
   min-width: 16rem;
-  margin-right: 1rem; }
-
+  margin-right: 1rem;
+}
 .page-menu__title {
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  margin-bottom: 1rem; }
-
+  margin-bottom: 1rem;
+}
 .page-menu__list {
-  margin: 1rem 0 2rem; }
+  margin: 1rem 0 2rem;
+}
 
 .page-main__footer {
   margin: 2rem 0;
   padding: 0.5rem 0;
   opacity: 0.75;
   border-top: 1px solid #19323c;
-  font-size: 0.6rem; }
+  font-size: 0.6rem;
+}
 
-/*------------------------------------*\
+.page-main a {
+  font-weight: bold;
+}
+
+.breadcrumb a {
+  border-bottom: 1px solid #f58287;
+  font-weight: normal;
+}
+
+/*---------------------------------------------------------------------------*\
   #TRUMPS
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 .text--small {
-  font-size: 0.6rem !important; }
+  font-size: 0.6rem !important;
+}
+
+.text--center {
+  text-align: center !important;
+}
+
+.text--gray {
+  color: #303e44 !important;
+}

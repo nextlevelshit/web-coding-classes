@@ -5,26 +5,31 @@
  * Global...............Globally-available variables and config
  *
  * BASE
- * Anchors..............
- * Paragraphs...........
+ * Resets...............Resetting HTML and BODY
+ * Anchors..............Links in general and with external targets
+ * Paragraphs...........Text, font and positioning
  * Headings.............H1–H2 styles
+ * Ordered Lists........
  *
  * HELPERS
  * Container............Wrapping and constraining elements
+ * Flex.................Flexbox support
  * Lists................Arranging lists in different orientation
  *
  * COMPONENTS
  * Page-head............The main page header
- * Page-foot............The main page footer
- * Buttons..............Button elements
+ * Page-menu............The main page navigation
+ * Page-main............The main page content
+ * Page-footer..........The main page footer
+ * Breadcrumb...........The main page footer
  *
  * TRUMPS
  * Text.................Text helpers
  */
 
-/*------------------------------------*\
+/*---------------------------------------------------------------------------*\
   #SETTINGS
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 
 $color-primary: #f2545b;
 $color-primary-light: #f58287;
@@ -34,20 +39,24 @@ $color-secondary: #eda257;
 $color-secondary-light: #eda257;
 $color-secondary-lighter: #eda257;
 
+$color-gray-dark: #19323c;
+$color-gray: #303e44;
+$color-gray-light: #5f6466;
+
 $color-background: #f3f7f0;
-$color-text: #19323c;
+$color-text: $color-gray-dark;
 $color-text-inverse: #f9fbf8;
 
 $font-size: 1rem;
 $font-size-small: 0.6 * $font-size;
 
-$transition: all 230ms ease-in;
+$transition: all 120ms ease-in;
 
 $spacer: 1rem;
 
-/*------------------------------------*\
+/*---------------------------------------------------------------------------*\
   #BASE
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 
 body,
 html {
@@ -65,27 +74,42 @@ body {
 a {
   color: $color-primary;
   text-decoration: none;
-  border-bottom: 1px solid $color-primary-light;
+  border-bottom: 1px solid transparent;
   transition: $transition;
 
   &:hover,
   &:focus {
-    border-color: $color-primary;
+    border-color: $color-primary-light;
+  }
+
+  &[href^="http"] {
+    &:after {
+      content: " →";
+    }
   }
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   max-width: 80%;
+  margin-top: 2 * $spacer;
 }
 
 p {
   line-height: 150%;
 }
 
-/*------------------------------------*\
+ol {
+  li {
+    margin-bottom: 0.5 * $spacer;
+  }
+}
+
+/*---------------------------------------------------------------------------*\
   #HELPERS
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 
 .container {
   max-width: 60rem;
@@ -98,6 +122,10 @@ p {
  * 
  * 1. Rows (by default)
  * 2. Columns
+ * 
+ * Regardless of the orientation every flex child has a specified gap to the
+ * next element. Therefore the wrapper class `.flex` has to be margined by a 
+ * corresponding *negative* value.
  */
 
 .flex {
@@ -122,8 +150,8 @@ p {
 /**
  * Lists are in general unstyled and come in two different orientations:
  * 
- * 1) Vertical (by default)
- * 2) Horizontal
+ * 1. Vertical (by default)
+ * 2. Horizontal
  * 
  * Most lists will have links inside, so the links are styled without
  * any other class.
@@ -131,6 +159,7 @@ p {
 
 .list {
   display: flex;
+  /* [1] */
   flex-flow: column;
   margin: 0;
   padding: 0;
@@ -149,6 +178,7 @@ p {
     }
   }
 
+  /* [2] */
   &--horizontal {
     flex-flow: row;
   }
@@ -160,15 +190,12 @@ p {
       &:before {
         content: "›";
         display: inline-block;
-        //float: left;
-        margin: 0 0.4rem;
+        margin: 0 (0.5 * $spacer);
       }
     }
   }
 
-  &--menu > &__item {
-    // font-weight: bold;
-
+  &--menu &__item {
     a {
       border: none;
       padding: 0.5rem 0;
@@ -180,11 +207,26 @@ p {
     }
   }
 
+  &--menu &__item {
+    &.list__item--active {
+      font-weight: bold;
+    }
+  }
+
   &--sub-menu {
     margin-left: 1.5 * $spacer;
   }
 
   &--sub-menu &__item {
+    &.list__item--active {
+      a {
+        &:before {
+          opacity: 1;
+          transform: scale(2);
+        }
+      }
+    }
+
     a {
       position: relative;
 
@@ -207,17 +249,28 @@ p {
   }
 }
 
-/*------------------------------------*\
+/*---------------------------------------------------------------------------*\
   #COMPONENTS
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 
 .page-head {
-  padding: 1rem 0;
   margin-bottom: 2rem;
 
   background: $color-primary;
   background-image: linear-gradient(160deg, $color-primary, $color-secondary);
   color: $color-text-inverse;
+
+  &__link {
+    display: block;
+    padding: 1rem 0;
+    color: $color-text-inverse;
+    // text-decoration: none;
+
+    &:hover,
+    &:focus {
+      opacity: 0.75;
+    }
+  }
 
   span {
     font-weight: bold;
@@ -250,17 +303,33 @@ p {
 
     font-size: $font-size-small;
   }
+
+  a {
+    font-weight: bold;
+  }
 }
 
 .breadcrumb {
+  a {
+    border-bottom: 1px solid $color-primary-light;
+    font-weight: normal;
+  }
 }
 
-/*------------------------------------*\
+/*---------------------------------------------------------------------------*\
   #TRUMPS
-\*------------------------------------*/
+\*---------------------------------------------------------------------------*/
 
 .text {
   &--small {
     font-size: $font-size-small !important;
+  }
+
+  &--center {
+    text-align: center !important;
+  }
+
+  &--gray {
+    color: $color-gray !important;
   }
 }
