@@ -3,6 +3,16 @@
   <sup>Zero pre-requirements - Learn to code the web</sup>
 </div>
 
+**Note:** *This content is heavily under construction. Feel free to contribute. At this moment there is no specific workflow and everybody is warmly invited to participate.*
+
+## The Idea
+
+I am seeing many people struggling to start coding.
+Most of them are not that unfamiliar with programming and technologies, but the available online courses mostly do not fit there needs.
+The Idea I had was to gather all information that can help people to understand *web coding* in a very short amount of time.
+This is not supposed to be a complete explanation of how to use HTML, CSS and JS.
+*Web Coding Classes* are supposed to be a good starting point for any beginners level of programmers.
+
 ## Table of Content
 
 | Sessions                        | Description                                                 |
