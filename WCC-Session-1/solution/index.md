@@ -1,4 +1,4 @@
-# Solutions of [Session 1](README.md)
+# Solutions of [Session 1](/)
 
 ## Website Manipulation
 
@@ -27,7 +27,7 @@ Most web browsers are programmed in C++, but there are alternatives coming up.
 
 <sup>*Source: https://softwareengineering.stackexchange.com/questions/41883/why-are-most-browsers-developed-in-c/41921*</sup>
 
-> Which short-cut is used to focus the [address bar](../WCC-Glossary/README.md#address-bar)?
+> Which short-cut is used to focus the [address bar](../WCC-Glossary/#address-bar)?
 
 On Windows and Linux Systems it is <kbd>Ctrl</kbd> + <kbd>L</kbd> and on MacOS it is <kbd>Cmd ⌘</kbd> + <kbd>L</kbd>.
 

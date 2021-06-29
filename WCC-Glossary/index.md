@@ -146,7 +146,7 @@ FOSS follows four principles:
 1. Copies can be redistributed
 1. Improving the software and its publication is permitted
 
-[Difference between FOSS and Open Source](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/README.md#Difference-between-Open-Source-and-FOSS)
+[Difference between FOSS and Open Source](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/#Difference-between-Open-Source-and-FOSS)
 
 ## G
 
@@ -242,10 +242,10 @@ Synonyms: Entity
 
 ### Open-Source
 
-Open Source means that the code is open and therefor can be accessed by the user. Unlike [FOSS](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/README.md#FOSS) there are no set rules.
+Open Source means that the code is open and therefor can be accessed by the user. Unlike [FOSS](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/#FOSS) there are no set rules.
 
 
-[Difference between FOSS and Open Source](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/README.md#Difference-between-Open-Source-and-FOSS)
+[Difference between FOSS and Open Source](https://github.com/nextlevelshit/web-coding-classes/blob/master/WCC-Glossary/#Difference-between-Open-Source-and-FOSS)
 
 ### Opera
 

@@ -10,10 +10,10 @@ It's just a nice-to-have.
 Feel free to skip them.
 
 > **NOTICE**  
-> Besides these Sessions there is an comprehensive [Glossary](../WCC-Glossary/README.md), which explains all that technical vocabulary.
+> Besides these Sessions there is an comprehensive [Glossary](../WCC-Glossary), which explains all that technical vocabulary.
 > Most technical words will have hyperlinks to its explanation.
 > Feel free to contribute a better description, as this project is still under heavy development.
-> [Here you can find the answers](./solutions.md) to the questions of Session 1.
+> [Here you can find the answers](/solution) to the questions of Session 1.
 
 ## Website Manipulation
 
@@ -56,7 +56,7 @@ This opens the `Inspector` which lets you dive into a huge part of the code.
 <br><br>
 
 If you're curious, go ahead and try to manipulate any content. 
-No worries, this is only [client-side](../WCC-Glossary/README.md#client-side), it's only locally to your computer.  You cannot break the site.
+No worries, this is only [client-side](../WCC-Glossary/#client-side), it's only locally to your computer.  You cannot break the site.
 You might also like to click through the different tabs.
 There is a lot of information about the current state of that web page visible. 
 We will have a closer look at what is going on here.  In the meantime, feel free to play around.
@@ -66,7 +66,7 @@ We will have a closer look at what is going on here.  In the meantime, feel free
 1. What are the most popular web browsers?
 2. Which was the first graphic web browser, ever?
 3. In which language are most web browsers developed?
-4. Which short-cut is used to focus the [address bar](../WCC-Glossary/README.md#address-bar)?
+4. Which short-cut is used to focus the [address bar](../WCC-Glossary/#address-bar)?
 
 ### Quests
 
@@ -109,7 +109,7 @@ Later on it will make things much easier, because all the source code here are v
 #### Quests
 
 1. Create an account on *GitHub*.
-2. Create your first [repository](../WCC-Glossary/README.md#repository).
+2. Create your first [repository](../WCC-Glossary/#repository).
 
 ### Stack Overflow
 
