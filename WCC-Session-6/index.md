@@ -1,1 +1,0 @@
-# WCC Session 6

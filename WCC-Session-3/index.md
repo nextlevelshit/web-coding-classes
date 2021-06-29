@@ -23,7 +23,7 @@ So, open up the [developer mode](../WCC-Glossary#developer-tools) of your browse
 
 The so called DOM represents the rendered HTML document.
 This is not equal to the source code.
-The source code is more or less the basis of your document and top some elements migth change during runtime, e.g. through JS scripts or other programming.
+The source code is more or less the basis of your document and top some elements might change during runtime, e.g. through JS scripts or other programming.
 When you've opened the DOM you can hover each element and it will be highlighted inside your view.
 This part of the developer tools is mostly useful for analysing the rendered DOM, removing parts or rearranging elements.
 
@@ -40,7 +40,7 @@ This part of the developer tools is mostly useful for analysing the rendered DOM
 
 ### Style sheets (CSS)
 
-While having an element highlighted you will find the element-specific stylings.
+While having an element highlighted you will find the element-specific styling.
 Styles are mostly attached to the `class` attribute of the HTML element.
 
 ```css
@@ -57,7 +57,7 @@ The dot in front of the CSS expression indicates that it fits to any element, th
 These are called *selectors*.
 
 ```css
-/* Element selctor */
+/* Element selector */
 p {
   color: darkgray;
 }
@@ -137,7 +137,7 @@ For general rules use `class` with the `.` selector.
 
 ### The Console (JS)
 
-The JavaScript console is most proberly the most powerfool tool of the developer tools.
+The JavaScript console is most properly the most powerful tool of the developer tools.
 You're having access to the whole JS code base that runs on the website.
 You can even run even code that does not has to do with anything on the website.
 Therefore is some knowledge necessary.
@@ -150,7 +150,7 @@ Therefore is some knowledge necessary.
 
 *Quests:*
 
-1. Open the console and click into the comand line to put the cursor there. Hit <kbd>Ctrl</kbd> + <kbd>Space</kbd> to open the drop-down menu with suggestions.
+1. Open the console and click into the command line to put the cursor there. Hit <kbd>Ctrl</kbd> + <kbd>Space</kbd> to open the drop-down menu with suggestions.
    Just look around.
    
 2. Type `alert('Hello World')` and hit <kbd>Return</kbd>.
@@ -159,9 +159,9 @@ Therefore is some knowledge necessary.
 3. Make some mathematical calculations, e.g. `10 * 5 + 3`.
    The result will be returned under your expression.
 
-4. Instead of just promptin the result prepend `let x =` to your expression: `let x = 10 * 5 + 3`
+4. Instead of just prompting the result prepend `let x =` to your expression: `let x = 10 * 5 + 3`
    The result will be stored and you can reuse the result.
-   Just type `x` into the comand line and return the result.
+   Just type `x` into the command line and return the result.
    
 *Further reading*:
 
@@ -179,7 +179,7 @@ The DOM document is visible in the window that represents the window property. W
 
 `document`
 
-The document interface is a representations any possible web page on the browser. It makes it possible to enter into the web pages content (the DOM tree). It includes elements like <body> and <head>. It gives the possiblity to obtain the page's URL and create new elements in the document 
+The document interface is a representations any possible web page on the browser. It makes it possible to enter into the web pages content (the DOM tree). It includes elements like <body> and <head>. It gives the possibility to obtain the page's URL and create new elements in the document 
 
 <sup>*https://developer.mozilla.org/en-US/docs/Web/API/Document*</sup>
 
@@ -192,7 +192,7 @@ The document interface is a representations any possible web page on the browser
 2. As soon as a HTML element will be returned in your console, you can hover it and it will be highlighted in your website.
    Define a variable for later usage, e.g. `let element = document.querySelector('h1')`.
    
-3. Type `el.` and hit the short-cut for dislaying suggestions (<kbd>Ctrl</kbd> + <kbd>Space</kbd>) and look around.
+3. Type `el.` and hit the short-cut for displaying suggestions (<kbd>Ctrl</kbd> + <kbd>Space</kbd>) and look around.
 
 4. Return the inner HTML text of your selected element by `el.innerHTML`
 
