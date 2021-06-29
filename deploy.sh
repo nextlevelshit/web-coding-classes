@@ -9,3 +9,5 @@ rm package.json
 rm -rf node_modules
 
 find . -iname "*README*" -exec rename README.md index.md '{}' \;
+
+echo wcc.dailysh.it > CNAME
